@@ -1,0 +1,15 @@
+
+const list= [
+    {
+        "value" : "Accounting"
+    },
+    {
+        "value" : "Banking"
+    }, 
+    {
+        "value" : "IT & Software"
+    },
+    {
+        "value" : "Marketing"
+    },
+]
