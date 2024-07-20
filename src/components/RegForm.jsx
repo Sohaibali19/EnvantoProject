@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faLocationArrow, faTableList, } from '@fortawesome/free-solid-svg-icons'
 import {useForm} from 'react-hook-form'
@@ -6,10 +6,12 @@ import Location from './Location'
 import Categories from './Categories'
 import Selected from './Selected'
 import Categ from './Categ'
+import Example from './Categories'
 
 
 function RegForm() {
     const {register, handleSubmit} = useForm();
+    const [selected, setSelected] = useState("");
     
   return (
     <div className='Registration-form'>
@@ -44,13 +46,14 @@ function RegForm() {
                 <div className=' total-form-2 flex w-[304px] relative h-[44.5px]'>
                     <div className="jobs-keyboards flex bg-[#fff] w-full rounded-lg  ">
                         <div className='w-full border-none cursor-pointer'>
-                        <Categories />
+                        <Categ selected={selected} setSelected={setSelected} />
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div>
             <input type="submit" className='bg-[#2f55d4] text-white py-[8px] px-[20px] w-[304px] relative h-[44.5px] rounded-lg cursor-pointer text-[14px] ' />
+            </div>
         </form>
         </div>
 
