@@ -5,6 +5,7 @@ import {useForm} from 'react-hook-form'
 import Location from './Location'
 import Categories from './Categories'
 import Selected from './Selected'
+import Categ from './Categ'
 
 
 function RegForm() {
@@ -16,11 +17,13 @@ function RegForm() {
             <form className='flex relative  justify-around items-center gap-6 bg-[#ffffff33] py-5 px-5 rounded-lg'>
             <div className='registration-form  ' >
                 <div className=' total-form flex w-[304px] relative h-[44.5px] '>
-                    <div className="jobs-keyboards flex bg-[#fff]  rounded-lg  ">
-                        <div className="icon mt-3 mb-2 ml-3 ">
+                    <div className="jobs-keyboards flex bg-[#fff]  rounded-lg text-[13px] ">
+                        <div className="icon mt-3 mb-2 ml-3 relative ">
                         <FontAwesomeIcon icon={faBriefcase}  style={{color: "#6c717a",}} />
                         </div>
-                        <input {...register("firstName")} className='pt-[6px] pr-[45px] pb-[6px] pl-[6px]  m-2 text-[14px] rounded-lg placeholder-[align-left] text-[#ffffff33]' placeholder="Jobs keyboards..." />
+                        <div className=''>
+                        <input {...register("firstName")} type='text' className='py-1.5 pr-[100px] pl-1.5  m-2 outline-none rounded-lg  placeholder-[border-none] text-black' placeholder="Jobs keyboards..." />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,8 +40,8 @@ function RegForm() {
                 </div>
             </div>
 
-            <div className='registration-form'  >
-                <div className=' total-form flex w-[304px] relative h-[44.5px]'>
+            <div className='registration-form-2'  >
+                <div className=' total-form-2 flex w-[304px] relative h-[44.5px]'>
                     <div className="jobs-keyboards flex bg-[#fff] w-full rounded-lg  ">
                         <div className='w-full border-none cursor-pointer'>
                         <Categories />

@@ -6,16 +6,17 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function Oclient() {
   return (
-    <section className='popular-cat flex flex-col  ml-[-155px] w-screen right-0 left-0 py-[100px] '>
+    <section className='popular-cat flex flex-col   w-screen right-0 left-0 py-[100px] '>
         <div className='container'>
             <div className='heading flex flex-col items-center mb-2 relative'>
-                <h4 className='text-[30px] pb-[48px]  relative underline underline-offset-[30px] decoration-2 decoration-blue-700 '>Our Client's</h4>
-                <div className="logo flex relative">
-                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'-59px'
-                }} />
-                
-                </div>
-                <p className='text-gray-700 text-[16px] relative text-wrap mx-12 mb-1'>
+            <div className='pb-[48px] '>
+                        <h4 className='text-[30px] flex   relative '>Ou<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>r&nbsp;Clien</h4>t's</h4>
+                        <div className="logo flex   justify-center relative">
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
+                        }} />
+                        </div>
+                    </div>
+                <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
                 Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                 </p>
             </div>

@@ -1,45 +1,79 @@
-import React, {useState} from 'react';
+import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faLocationArrow, faTableList, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faLocationArrow, faTableList, faCaretDown, faCaretUp, faSearch } from '@fortawesome/free-solid-svg-icons'
+import LocationIcon from './LocationIcon';
 
+function  Categ() {
 
-function Categ() {
-  const [isOpen, setIsOpen] = useState(false);
-    
-  const options = [
-      
-      {label :"English", value : 1},
-      {label :"Spanish", value : 2},
-      {label :"Hindi", value : 3},
-      {label :"French", value : 4},
-    ]
-    return (
-        <div className='bg-[#ffffff33] w-full  relative  flex  items-center rounded-md  '>
-            <div className="icon mt-3 mb-2 ml-3 ">
+   const [countries, setCountries] = useState(null); 
+   const [open, setOpen] = useState(false);
+   const [selected, setSelected] = useState("");
+   
+
+    useEffect( () => {
+        fetch("https://restcountries.com/v2/all?fields=name")
+        .then((res) => res.json())
+        .then((data) => {
+            setCountries(data);
+        });
+
+    }, []);
+  return (
+    <div className='flex justify-between items-center'>
+        <div className="icon mt-3 mb-2 ml-3 ">
              <FontAwesomeIcon icon={faTableList}  style={{color: "#6c717a",}} />
-             </div>
-          <div>   
-          <button onClick={() => setIsOpen((prev) => !prev)}
-          className='bg[#ffffff33] relative w-full gap-3 rounded-md flex justify-between text-[13px] space-x-5 tracking-wide border-2 px-4 py-1'>
-          Categories
-          
-            <FontAwesomeIcon icon={faCaretDown} style={{color: "#6c717a",}} className = {`${isOpen && 'rotate-180' }`} />
-    
-          </button>
-          {isOpen && ( 
-            <div className='bg-white text-gray-500 text-[14px] w-full absolute mt-8  text-left z-[1000] '>
-                {options.map((option, label) => (
-                  <div key={label}>
-                      <h3 className='hover:bg-gray-100'>{option.label}</h3>
-                  </div>
-                ))}
+      </div>
+    <div className='w-[90%]  right-0  ml-6 mt-1 font-medium absolute text-[14px] top-0  cursor-pointer'>
+    <div  
+        onClick={() => setOpen(!open)}
+        className={`bg-white w-full p-2 flex items-center justify-between rounded-lg text-gray-400  ${!selected && 'text-gray-400'
+        }`}>
+            {selected 
+            ? selected?.length > 25 
+                ? selected?.substring(0,25) + '...' 
+                : selected  
+            : 'Categories'}
+        <FontAwesomeIcon icon={faCaretDown}  style={{size: "14",color: "#6c717a"}}  className={`${open && 'rotate-180'}`}/>
+        </div>
+ 
+        <ul className={`w-[110%] right-0   absolute  bg-white mt-2  overflow-y-auto  ${open ? "max-h-60" : "max-h-0" 
+        } `}
+        >
+            
+            
+            {
+            countries?.map((country)  => (
+
+            <li 
+            key={country?.name}
+            className={`p-2 text-sm hover:bg-gray-100 text-left hover: text-gray-800
+                ${
+                    country?.name === selected && ' bg-gray-200'
+                } `}
                 
-            </div>
-           )}
-          
-        </div>
-        </div>
-    );
-    }
+                // ${
+                // country?.name?.toLowerCase().startsWith(inputvalue)
+                // ?'block'
+                // : 'hidden'
+                //  }
+                
+            
+            onClick={() => {
+                if(country?.name  !== selected){
+                    setSelected(country?.name);
+                    setOpen(false);
+                }
+            }}
+             >
+                {country?.name}
+            </li>
+            ))}
+            
+        
+        </ul>
+    </div>
+    </div>
+  )
+}
 
 export default Categ

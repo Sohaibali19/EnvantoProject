@@ -34,7 +34,7 @@ export default function Categories() {
              <FontAwesomeIcon icon={faTableList}  style={{color: "#6c717a",}} />
       </div>
 
-      <div className='bg-white w-full  relative  flex flex-col items-center justify-center text-gray-400 rounded-md  '>
+      <div className='bg-white w-full  relative  flex flex-col items-center justify-center text-gray-400 rounded-lg  '>
       <button onClick={() => setSelectedOption((prev) => !prev)}
           className='bg-[#ffffff33] relative w-full gap-3 rounded-md flex justify-between text-[13px] space-x-2 tracking-wide border-none px-4 py-1'>
           Categories...
@@ -46,7 +46,7 @@ export default function Categories() {
           </button>
 
           {selectedOption && ( 
-            <div className='bg-white text-gray-500 text-[14px] w-[110%] py-2  mt-5  relative right-0  text-left '>
+            <div className=' text-gray-500 text-[14px] w-[110%] py-2  mt-5  relative right-0  text-left '>
                 {list.map((i, label) => (
                   <div key={label}>
                       <h3 className='hover:bg-gray-100'>{i.label}</h3>

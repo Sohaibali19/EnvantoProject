@@ -6,21 +6,22 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function FJobs() {
   return (
-    <section className='FJobs flex flex-col  ml-[-155px] w-screen right-0 left-0 py-[100px] bg-[#f8f9fc] font-nunito'>
+    <section className='FJobs flex flex-col   w-screen right-0 left-0 py-[100px] bg-[#f8f9fc] font-nunito'>
         <div className='container'>
-                <div className='heading flex flex-col items-center mb-2 relative'>
-                    <h4 className='text-[30px] pb-[48px]  relative underline underline-offset-[30px] decoration-2 decoration-blue-700 '>Find Your Jobs</h4>
-                    <div className="logo flex relative">
-                        <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'-59px'
+                <div className='heading flex flex-col items-center justify-center mb-2 relative'>
+                    <div className='pb-[48px] '>
+                        <h4 className='text-[30px] flex   relative '>Find<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>&nbsp;Your&nbsp;</h4>Jobs</h4>
+                        <div className="logo flex   justify-center relative">
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'10px', marginRight: '0px'
                         }} />
-                    
+                        </div>
                     </div>
-                    <p className='text-gray-700 text-[16px] relative text-wrap'>
+                    <p className='text-[#8492A6] text-[16px] relative font-nunito '>
                         Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                     </p>
                 </div>
 
-                <div className=" flex justify-center items-center">
+                <div className=" flex justify-center items-center ">
                     <nav className='mt-6 text-[16px] w-[60%] bg-white text-[#3c4858] font-bold rounded-lg  px-0 flex justify-between '>
                             <div className='py-[11.2px] px-[64px]  bg-[#2f55d4] rounded-lg text-white'>
                                 Recent Jobs
@@ -38,16 +39,16 @@ function FJobs() {
                 </div>
 
                 {/* items  */}
-                <div className='flex flex-col text-[16px] font-nunito '>
+                <div className='flex flex-col text-[16px] justify-center items-center font-nunito '>
                     <div className='container '>
                         {/* developer */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 bg-white border-2 border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6]">
+                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group ">
                             {/* top portion */}
                             <div className="top ">
-                                <div className="label     bg-[#d8dff7]  hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
-                                    <ul className="logo flex justify-center items-center  w-[28.85px] h-[28.85px]  ">
-                                        <li className='w-[28.85px] h-[28.85px]   mt-[-20px] flex justify-start items-center pr-8 '>
-                                    <FontAwesomeIcon icon={faStar} style={{color: "#ffffff", }} />
+                                <div className="label     bg-[#d8dff7]   w-[38.85px] h-[38.85px] group-hover:bg-[#2f55d4] rounded-tl-lg  rounded-br-full text-white ">
+                                    <ul className="logo flex justify-center items-center  w-[28.85px] h-[28.85px]  rounded-tl-lg  rounded-br-full ">
+                                        <li className='w-[28.85px] h-[28.85px]    flex justify-center items-center   '>
+                                            <FontAwesomeIcon icon={faStar} style={{color: "#ffffff", }} />
                                          </li>
                                     </ul>
                                 </div>
@@ -100,12 +101,12 @@ function FJobs() {
                         </div>
 
                         {/* php */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 bg-white border-2 border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6]">
+                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-300 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
-                                <div className="label     bg-[#d8dff7]  hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
+                                <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform ">
                                     <ul className="logo flex justify-center items-center  w-[28.85px] h-[28.85px]  ">
-                                        <li className='w-[28.85px] h-[28.85px]   mt-[-20px] flex justify-start items-center pr-8 '>
+                                        <li className='w-[28.85px] h-[28.85px]    flex justify-center items-center '>
                                     <FontAwesomeIcon icon={faStar} style={{color: "#ffffff", }} />
                                          </li>
                                     </ul>
@@ -160,12 +161,12 @@ function FJobs() {
 
                         {/* graphics */}
 
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 bg-white border-2 border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6]">
+                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
-                                <div className="label     bg-[#d8dff7]  hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
+                                <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
                                     <ul className="logo flex justify-center items-center  w-[28.85px] h-[28.85px]  ">
-                                        <li className='w-[28.85px] h-[28.85px]   mt-[-20px] flex justify-start items-center pr-8 '>
+                                        <li className='w-[28.85px] h-[28.85px]    flex justify-center items-center '>
                                     <FontAwesomeIcon icon={faStar} style={{color: "#ffffff", }} />
                                          </li>
                                     </ul>
@@ -219,12 +220,12 @@ function FJobs() {
                         </div>
 
                         {/* UI/UX */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 bg-white border-2 border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6]">
+                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
-                                <div className="label     bg-[#d8dff7]  hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
+                                <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform">
                                     <ul className="logo flex justify-center items-center  w-[28.85px] h-[28.85px]  ">
-                                        <li className='w-[28.85px] h-[28.85px]   mt-[-20px] flex justify-start items-center pr-8 '>
+                                        <li className='w-[28.85px] h-[28.85px]   flex justify-center items-center '>
                                     <FontAwesomeIcon icon={faStar} style={{color: "#ffffff", }} />
                                          </li>
                                     </ul>
@@ -279,22 +280,22 @@ function FJobs() {
                             {/* Last container with numbers 1,2,3,4 */}
                         <div className=''> 
                             <div className="container flex justify-center items-center mt-6 pt-2 px-2 gap-3 text-[14px] text-[#8492a6] font-nunito">
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-[#edf0fb] border-gray-100">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 rounded-full bg-[#dee2e6] border-[#dee2e6]">
                                         
                                 </div>
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-[#2f55d4] text-white border-gray-100">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 cursor-pointer rounded-full bg-[#2f55d4] text-white border-gray-100">
                                         <p>1</p>
                                 </div>
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 cursor-pointer rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
                                         <p>2</p>
                                 </div>
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 cursor-pointer rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
                                         <p>3</p>
                                 </div>
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 cursor-pointer rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
                                         <p>4</p>
                                 </div>
-                                <div className="logo  flex justify-center items-center w-3 h-3 mb-4 rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
+                                <div className="logo  flex justify-center items-center w-10 h-10 mb-4 cursor-pointer rounded-full bg-white hover:bg-[#edf0fb]  border-gray-200 border-2">
                                 <FontAwesomeIcon icon={faAnglesRight} style={{color: "#8492a6", }} />
                                 </div>
 

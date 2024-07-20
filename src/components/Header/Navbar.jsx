@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='  '>
                     <div
-                        className=" justify-around items-center sticky   w-full lg:flex  lg:order-1"
+                        className=" justify-around items-center mt-3   w-full lg:flex  lg:order-1"
                         id="mobile-menu-2"
                     >
                         <div className="logo">

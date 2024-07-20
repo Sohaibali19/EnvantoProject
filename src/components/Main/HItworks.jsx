@@ -6,21 +6,19 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function HItworks() {
   return (
-    <section className='popular-cat flex flex-col  ml-[-155px] w-screen right-0 left-0 py-[100px]'>
+    <section className='popular-cat flex flex-col   w-screen right-0 left-0 py-[100px]'>
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
-                  <h4 className='text-[30px] pb-[48px]  relative underline underline-offset-[30px] decoration-2 decoration-blue-700 '>How It Works</h4>
-                  <div className="logo flex relative">
-                  <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'-59px'
-                  }} />
-                  
+                  <div className='pb-[48px] '>
+                        <h4 className='text-[30px] flex   relative '>Ho<h4 className='text-[30px]  underline  underline-offset-[30px]   decoration-card-blue  decoration-blue-700'>w&nbsp;It&nbsp;W</h4>orks</h4>
+                        <div className="logo flex   justify-center relative">
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '12px'
+                        }} />
+                        </div>
                   </div>
-                  <p className='text-gray-700 text-[16px] relative text-wrap mx-[48px] mb-1 '>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
-
-
-
               </div>
               <div className="categories font-nunito  flex flex-wrap items-start justify-center my-4  mx-auto gap-3 py-[100px]">
                   {/* register an account  */}
@@ -28,7 +26,7 @@ function HItworks() {
                     <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
 
                       <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
-                            <div className='w-[90px] h-[90px] mt-3 '>
+                            <div className='w-[90px] h-[90px] flex justify-center items-center '>
                             <div className="bg-[url('src/Images/registeraccount.png')] w-[50px] h-[50px]  p-5 bg-top  bg-cover relative   rounded-full "> </div>
                             </div>
 
@@ -60,8 +58,8 @@ function HItworks() {
                   <div className="searchJob    w-[30%]     mt-6 pt-2 px-3 ">
                     <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
                       <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
-                      <div className='w-[90px] h-[90px] mt-3 '>
-                            <div className="bg-[url('src/Images/searchjob.png')] w-[50px] h-[50px]  p-5 bg-top  bg-cover relative   rounded-full "> </div>
+                      <div className='w-[90px] h-[90px] flex justify-center items-center '>
+                            <div className="bg-[url('src/Images/searchjob.png')] w-[50px] h-[50px]     bg-cover relative   rounded-full "> </div>
                             </div> 
                       
                         </div>
@@ -91,7 +89,7 @@ function HItworks() {
                       <div className="applyjob    w-[30%]   mt-6 pt-2 px-3 ">
                         <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
                         <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
-                        <div className='w-[90px] h-[90px] mt-3 '>
+                        <div className='w-[90px] h-[90px] flex justify-center items-center '>
                             <div className="bg-[url('src/Images/applyjob.png')] w-[50px] h-[50px]  p-5 bg-center  bg-cover relative   rounded-full "> </div>
                             </div> 
                       

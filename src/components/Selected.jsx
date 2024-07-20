@@ -8,7 +8,7 @@ function  Selected() {
    const [countries, setCountries] = useState(null); 
    const [open, setOpen] = useState(false);
    const [selected, setSelected] = useState("");
-   const [inputvalue, setInputValue] = useState("");
+   
 
     useEffect( () => {
         fetch("https://restcountries.com/v2/all?fields=name")
@@ -37,16 +37,7 @@ function  Selected() {
         <ul className={`w-[110%] right-0   absolute  bg-white mt-2  overflow-y-auto  ${open ? "max-h-60" : "max-h-0" 
         } `}
         >
-            <div className='flex justify-start sticky top-0 bg-white'>
-            <FontAwesomeIcon icon={faSearch} style={{size: '14', color:'#6c717a'}} className={`p-2 pt-3 bg-white bg-cover `}/>
-                <input 
-                type='text'
-                value={inputvalue}
-                onChange={(e) => setInputValue(e.target.value.toLowerCase())}
-
-                placeholder='Enter country name' className='placeholder:text-gray-400 
-                 p-2 outline-none' />
-            </div>
+            
             
             {
             countries?.map((country)  => (
@@ -55,17 +46,18 @@ function  Selected() {
             key={country?.name}
             className={`p-2 text-sm hover:bg-gray-100 text-left hover: text-gray-800
                 ${
-                    country?.name?.toLowerCase() === selected?.toLocaleLowerCase() && ' bg-gray-200'
-                }
+                    country?.name === selected && ' bg-gray-200'
+                } `}
                 
-                ${
-                country?.name?.toLowerCase().startsWith(inputvalue)
-                ?'block'
-                : 'hidden'
-                 }`}
+                // ${
+                // country?.name?.toLowerCase().startsWith(inputvalue)
+                // ?'block'
+                // : 'hidden'
+                //  }
+                
             
             onClick={() => {
-                if(country?.name?.toLowerCase()  !== selected){
+                if(country?.name  !== selected){
                     setSelected(country?.name);
                     setOpen(false);
                 }

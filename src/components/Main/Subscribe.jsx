@@ -7,7 +7,7 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function Subscribe() {
   return (
-    <section className='popular-cat flex flex-col  ml-[-155px] w-screen right-0 left-0 py-[100px] text-[16px]  '>
+    <section className='popular-cat flex flex-col   w-screen right-0 left-0 py-[100px] text-[16px]  '>
         <div className='container'>
             <div className='row flex justify-evenly  items-center'>
                 <div className='left flex justify-start items-center  px-3 '>

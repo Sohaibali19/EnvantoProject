@@ -6,16 +6,17 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function  CareerAdvice() {
   return (
-    <section className='popular-cat flex flex-col  ml-[-155px] w-screen right-0 left-0 py-[100px] bg-[#f8f9fc]'>
+    <section className='popular-cat flex flex-col  w-screen right-0 left-0 py-[100px] bg-[#f8f9fc]'>
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
-                  <h4 className='text-[30px] pb-[48px]  relative underline underline-offset-[30px] decoration-2 decoration-blue-700 '>How It Works</h4>
-                  <div className="logo flex relative">
-                  <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'-59px'
-                  }} />
-                  
-                  </div>
-                  <p className='text-gray-700 text-[16px] relative text-wrap mx-[48px] mb-1 '>
+              <div className='pb-[48px] '>
+                        <h4 className='text-[30px] flex   relative '>Car<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>eer&nbsp;Ad</h4>vice</h4>
+                        <div className="logo flex   justify-center relative">
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
+                        }} />
+                        </div>
+                    </div>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
 
@@ -24,19 +25,20 @@ function  CareerAdvice() {
               </div>
               <div className="categories font-nunito w-[90%] px-5 flex flex-wrap items-start justify-center my-4 relative  mx-auto gap-3 py-[100px]">
                   {/* How Apps is the world to IT  */}
-                    <div className="firstone  relative w-[30%]    mt-6  px-3  bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
-                    <div className='flex flex-col items-center   rounded-lg  px-6  pb-0'>
-                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4 '>
-                            <div className="bg-[url('src/Images/img-4.jpg')] bg-[#282c32b3] bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
+                    <div className="firstone  relative w-[30%]    mt-6  px-3  bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
 
-                            <div className=' bg-[#282c32b3] w-full h-[300px] flex flex-col justify-between text-white mb-4   invisible hover:visible'>
-                                <div className='flex justify-between items-center'>
+                    <div className='flex flex-col items-center   rounded-lg  px-6  pb-0 group'>
+                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
+                            <div className="bg-[url('src/Images/img-4.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
+
+                            <div className=' bg-[#282c32b3] w-full h-[300px] flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
+                                <div className='flex justify-between items-center '>
                                     {/* Name and Date */}
                                     <div className='flex flex-col justify-center my-5 px-4'>
-                                        <div className='flex justify-between items-center  gap-3 cursor-pointer'>
+                                        <div className='flex justify-start items-center  gap-3 cursor-pointer'>
                                         <FontAwesomeIcon icon={faUser}  style={{color: "#edf0fb", }} />
                                             <div className='Name text-'>
-                                                Muhammad Khan
+                                                Dirio Walls
                                             </div>
 
                                         </div>
@@ -94,20 +96,20 @@ function  CareerAdvice() {
                     </div>
                     </div>
                     
-                  {/* search your job */}
-                  <div className="firstone  relative w-[30%]    mt-6  px-3  bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
-                    <div className='flex flex-col items-center   rounded-lg  px-6  pb-0'>
-                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4 '>
-                            <div className="bg-[url('src/Images/img-5.jpg')] bg-cover bg-center w-full h-[300px]   ">
+                  {/* Vestibulum Inte Ipsum */}
+                  <div className="firstone  relative w-[30%]    mt-6  px-3  bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                  <div className='flex flex-col items-center   rounded-lg  px-6  pb-0 group'>
+                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
+                            <div className="bg-[url('src/Images/img-5.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
 
-                            <div className=' bg-[#282c32b3] w-full h-[350px] flex flex-col justify-between text-white   invisible hover:visible'>
-                                <div className='flex justify-between items-center'>
+                            <div className=' bg-[#282c32b3] w-full h-[300px] flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
+                                <div className='flex justify-between items-center '>
                                     {/* Name and Date */}
                                     <div className='flex flex-col justify-center my-5 px-4'>
-                                        <div className='flex justify-between items-center  gap-3 cursor-pointer'>
+                                        <div className='flex justify-start items-center  gap-3 cursor-pointer'>
                                         <FontAwesomeIcon icon={faUser}  style={{color: "#edf0fb", }} />
                                             <div className='Name text-'>
-                                                Muhammad Khan
+                                                Dirio Walls
                                             </div>
 
                                         </div>
@@ -144,7 +146,7 @@ function  CareerAdvice() {
                             
                       <div className='py-6 font-nunito flex items-start flex-col justify-start'>       
                       <div>
-                        <h4 className='text-[20px] mb-2 font-semibold text-black'>Vestibulum Inte Ipsum Primis</h4>
+                        <h4 className='text-[20px] mb-2 font-semibold text-black'>Vestibulum ante ipsum Primis</h4>
                       </div>
 
 
@@ -167,18 +169,18 @@ function  CareerAdvice() {
 
                       {/* Apply for Job */}
                       <div className="firstone  relative w-[30%]    mt-6  px-3  bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
-                    <div className='flex flex-col items-center   rounded-lg  px-6  pb-0'>
-                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4 '>
-                            <div className="bg-[url('src/Images/img-6.jpg')] bg-cover bg-center w-full h-[300px]   ">
+                      <div className='flex flex-col items-center   rounded-lg  px-6  pb-0 group'>
+                            <div className=' relative flex justify-center items-center w-[400px] h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
+                            <div className="bg-[url('src/Images/img-6.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
 
-                            <div className=' bg-[#282c32b3] w-full h-[350px] flex flex-col justify-between text-white   invisible hover:visible'>
-                                <div className='flex justify-between items-center'>
+                            <div className=' bg-[#282c32b3] w-full h-[300px] flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
+                                <div className='flex justify-between items-center '>
                                     {/* Name and Date */}
                                     <div className='flex flex-col justify-center my-5 px-4'>
-                                        <div className='flex justify-between items-center  gap-3 cursor-pointer'>
+                                        <div className='flex justify-start items-center  gap-3 cursor-pointer'>
                                         <FontAwesomeIcon icon={faUser}  style={{color: "#edf0fb", }} />
                                             <div className='Name text-'>
-                                                Muhammad Khan
+                                                Dirio Walls
                                             </div>
 
                                         </div>
@@ -215,7 +217,7 @@ function  CareerAdvice() {
                             
                       <div className='py-6 font-nunito flex items-start flex-col justify-start'>       
                       <div>
-                        <h4 className='text-[20px] mb-2 font-semibold text-black'>Maecenus Tempus Tellus Eget</h4>
+                        <h4 className='text-[20px] mb-2 font-semibold text-black'>Maecenus tempus telet eget</h4>
                       </div>
 
 

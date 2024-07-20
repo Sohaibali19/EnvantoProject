@@ -5,7 +5,7 @@ import { faBriefcase, faLocationArrow, faTableList, faCaretDown, faAngleRight, f
 
 export default function Footer() {
     return (
-        <footer className="bg-[#202942] border-y w-screen right-0 ml-[-155px] text-[#ADB5BD] mb-[-40px]  font-nunito">
+        <footer className="bg-[#202942] border-y w-screen right-0  text-[#ADB5BD]   font-nunito">
             <div className="mx-auto w-screen  p-4 py-6 lg:py-8">
                 <div className="md:flex flex justify-around mt-5  md:justify-around">
                     <div className=" flex basis-1/4 items-right   flex-col text-[16px] mb-6 px-3 pb-2 mx-0 mt-0   md:mb-0">
