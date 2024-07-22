@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='  '>
                     <div
-                        className=" justify-around items-center mt-3   w-full lg:flex  lg:order-1"
+                        className=" justify-around items-center mt-4  lg:w-full lg:flex "
                         id="mobile-menu-2"
                     >
                         <div className="logo">
@@ -18,7 +18,7 @@ function Navbar() {
                         <div className="ul">
 
                         
-                        <ul className="flex flex-col mt-4   font-medium text-[14px] lg:flex-row lg:space-x-10 lg:mt-0 ">
+                        <ul className="flex flex-col mt-4   font-medium text-[14px] lg:flex-row lg:space-x-10 lg:mt-4 ">
                             <li>
                                 <NavLink
                                 to="/"
@@ -71,8 +71,8 @@ function Navbar() {
                             
                          </ul>
                      </div>
-                     <div className="post-job-button z-30 ">
-                        <button className='bg-[#2f55d4] text-white flex rounded-lg px-5 py-2 mr-2
+                     <div className="post-job-button  ">
+                        <button className='bg-[#2f55d4] text-white flex rounded-lg px-5 py-2 
                         '>
                             <FontAwesomeIcon icon={faCloudArrowUp} style={{color: "#ffffff", paddingTop:"4px", paddingRight:"4px"}} />
                             <p className='text-[16px] '>Post a Job</p>

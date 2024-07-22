@@ -6,7 +6,7 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function HItworks() {
   return (
-    <section className='popular-cat flex flex-col   w-screen right-0 left-0 py-[100px]'>
+    <section className='popular-cat flex flex-col items-center   w-screen right-0 left-0 py-[100px]'>
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
                   <div className='pb-[48px] '>
@@ -101,7 +101,7 @@ function HItworks() {
 
                         <div>
                             <p className='text-[16px] mb-4 text-[#8492a6] '>
-                            Nullam dictum felis eu pede mollis pretiumetus Integer tincidunt. Cras dapibus. semper nisi. 
+                            Nullam dictum felis eu pede mollis pretiumetus Integer tincidunt. Cras dapibus. semper nisi. viverra nulla ut Quisque rutrum.
                             </p>
                         </div>
 
@@ -117,8 +117,14 @@ function HItworks() {
                     </div>
               </div>
 
-               <div className="bg-[url('src/Images/bg-counters.jpg')] bg-auto bg-center w-full h-[300px]  bg-[#282c32b3] z-0 top-0 left-0  mb-4 ">
-                <div className='bg-[#5e77ccbf] w-full h-[300px] z-0 flex items-center justify-center'>
+
+                        
+              
+        </div>
+                          {/* Last section of how it works */}
+        <div className='w-full justify-center right-0 left-0'>
+               <div className="bg-[url('src/Images/bg-counters.jpg')] bg-cover bg-center w-[100%] h-[300px]  right-0 left-0 ">
+                <div className='bg-[#5e77ccbf] opacity-75 w-full h-[300px] z-0 flex items-center justify-center'>
                   <div className="container flex justify-evenly items-center sm:text-[16px] md:text-[20px] font-nunito">
                     {/* first */}
                     <div className="companies flex  justify-center items-center py-6 px-2 text-white">
@@ -168,7 +174,7 @@ function HItworks() {
                   </div>
                 </div>
               </div>
-        </div>
+              </div>
                 
                 
       

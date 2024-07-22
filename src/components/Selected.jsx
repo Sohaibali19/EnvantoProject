@@ -19,9 +19,9 @@ function  Selected() {
 
     }, []);
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center lg:py-1'>
         <LocationIcon />
-    <div className='w-[90%]  right-0  ml-6 mt-1 font-medium absolute text-[14px] top-0  cursor-pointer'>
+    <div className='w-[90%]  right-0  ml-6 xl:mt-1 lg:mt-0 font-medium absolute text-[14px] top-0  cursor-pointer'>
     <div  
         onClick={() => setOpen(!open)}
         className={`bg-white w-full p-2 flex items-center justify-between rounded-lg text-gray-400  ${!selected && 'text-gray-400'

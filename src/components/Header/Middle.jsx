@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,8 +8,9 @@ import {  faUser, faEnvelope, faPhone, } from '@fortawesome/free-solid-svg-icons
 
 
 function Middle() {
+  const [selected, setSelected] = useState("");
   return (
-    <div className='  py-4 bg-[#ffffff33]   overflow-y-hidden overflow-x-hidden  '>
+    <div className='  py-4 bg-[#ffffff33]  bg-opacity-80  '>
             
             <div className='flex justify-between items-center text-white px-36'>
                     <div className="number+email flex  space-x-5 ">
@@ -36,8 +37,7 @@ function Middle() {
                          </div>
                         <div class="flex  justify-center items-center">
 
-                        <Language
-                         />
+                        <Language  selected={selected} setSelected={setSelected}/>
                         
                         </div>
 

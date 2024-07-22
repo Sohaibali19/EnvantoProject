@@ -15,10 +15,10 @@ import Subscribe from '../Main/Subscribe'
 
 function Header() {
   return (
-    <div className='bg-none'>
-        <div className='bg-[#282c32b3] w-screen  right-0 top-0 h-screen font-nunito z-0'>
-          <div className="bg-[url('src/Images/bg-home.jpg')] bg-cover bg-center w-screen  h-full  bg-[#282c32b3] z-0 top-0 left-0  mb-4 ">
-              <div className='bg-[#282c32b3] w-screen  h-screen z-0'>
+    <div className='bg-none overflow-x-hidden'>
+        <div className='bg-[#282c32b3] w-screen relative overflow-x-hidden right-0 top-0 h-screen font-nunito '>
+          <div className="bg-[url('src/Images/bg-home.jpg')] bg-cover bg-center w-full  h-full  bg-[#282c32b3]  top-0 left-0  mb-4 ">
+              <div className='bg-[#282c32b3] w-screen  h-screen '>
                   <TopHeader />
                   <Middle />
                   <Navbar />

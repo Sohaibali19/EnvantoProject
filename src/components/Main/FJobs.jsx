@@ -6,7 +6,7 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function FJobs() {
   return (
-    <section className='FJobs flex flex-col   w-screen right-0 left-0 py-[100px] bg-[#f8f9fc] font-nunito'>
+    <section className='FJobs flex flex-col  items-center w-screen right-0 left-0 py-[100px] bg-[#f8f9fc] font-nunito'>
         <div className='container'>
                 <div className='heading flex flex-col items-center justify-center mb-2 relative'>
                     <div className='pb-[48px] '>
@@ -21,8 +21,8 @@ function FJobs() {
                     </p>
                 </div>
 
-                <div className=" flex justify-center items-center ">
-                    <nav className='mt-6 text-[16px] w-[60%] bg-white text-[#3c4858] font-bold rounded-lg  px-0 flex justify-between '>
+                <div className=" flex justify-center  ">
+                    <nav className='mt-6 text-[16px] w-[70%] bg-white text-[#3c4858] font-bold rounded-lg  px-0 flex justify-between '>
                             <div className='py-[11.2px] px-[64px]  bg-[#2f55d4] rounded-lg text-white'>
                                 Recent Jobs
                             </div>

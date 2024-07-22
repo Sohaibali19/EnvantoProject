@@ -13,7 +13,7 @@ function  Categ( {selected, setSelected}) {
 
   return (
     <div className='flex justify-between items-center'>
-        <div className="icon mt-3 mb-2 ml-3 ">
+        <div className="icon mt-3 mb-2 xl:ml-3 lg:ml-1 ">
              <FontAwesomeIcon icon={faTableList}  style={{color: "#6c717a",}} />
       </div>
     <div className='w-[90%]  right-0  ml-6 mt-1 font-medium absolute text-[14px] top-0  cursor-pointer'>

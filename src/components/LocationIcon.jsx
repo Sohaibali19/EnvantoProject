@@ -5,7 +5,7 @@ import { faBriefcase, faLocationArrow, faTableList, faCaretDown, faCaretUp } fro
 
 function LocationIcon() {
   return (
-    <div className="icon relative mt-[12px] ml-3 mx-3 ">
+    <div className="icon relative xl:mt-2 lg:mt-1 xl:ml-3 lg:ml-1 mx-3 ">
       <FontAwesomeIcon icon={faLocationArrow}  style={{color: "#6c717a",size:'20'}} />
     </div>
   )

@@ -6,7 +6,7 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function Oclient() {
   return (
-    <section className='popular-cat flex flex-col   w-screen right-0 left-0 py-[100px] '>
+    <section className='popular-cat flex flex-col items-center   w-screen right-0 left-0 py-[100px] '>
         <div className='container'>
             <div className='heading flex flex-col items-center mb-2 relative'>
             <div className='pb-[48px] '>
