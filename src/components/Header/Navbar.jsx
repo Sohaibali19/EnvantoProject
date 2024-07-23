@@ -13,7 +13,7 @@ function Navbar() {
                         id="mobile-menu-2"
                     >
                         <div className="logo">
-                            <img src='src/Images/logo-dark.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] md:h-[18px] lg:relative md:absolute  md:-mt-3 lg:ml-0 md:ml-7 lg:mt-0    ' />
+                            <img src='src/Images/logo-light.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] md:h-[18px] lg:relative md:absolute  md:-mt-3 lg:ml-0 md:ml-7 lg:mt-0    ' />
                         </div>
                         {/* <div className="logo">
                             <img src='src/Images/logo-dark.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] md:h-[14px] md:visible lg:invisible  ' />
