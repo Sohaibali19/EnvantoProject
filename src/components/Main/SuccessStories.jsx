@@ -36,7 +36,7 @@ function SuccessStories() {
                         }} />
                         </div>
                     </div>
-                  <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
 
@@ -48,7 +48,7 @@ function SuccessStories() {
               {/* <div className="categories font-nunito  flex flex-wrap items-center justify-center my-7 px-[100px]  py-[100px]"> */}
              
                 
-                    <div className="main m-auto  w-[80%] ">
+                    <div className="main m-auto  lg:w-[80%] md:w-full md:px-10 ">
                         <div className='mt-20'>
                         <Slider  {...settings}>
                             {data.map((d) =>(
@@ -58,16 +58,16 @@ function SuccessStories() {
                         <div className="bottom flex  justify-between  items-center ">
                             <div className="div flex justify-around items-center gap-3 ">
                                     <div className='imagediv'>
-                                        <img className='product--image w-16 h-16 rounded-full border-2 border-slate-600'
+                                        <img className='product--image sm:w-24 lg:w-16 h-16 rounded-full border-2 border-slate-600'
                                         src={d.image} alt='img-1' />
                                     </div>
                                     <div className='flex flex-col justify-start items-start'>     
-                                        <h2 className='text-[20px] font-semibold text-black mb-2 pt-1'>{d.name}</h2>
-                                        <p>{d.remarks}y</p>
+                                        <h2 className='lg:text-[20px] md:text-[18px] font-semibold text-black mb-2 pt-1'>{d.name}</h2>
+                                        <p className='text-sm'>{d.remarks}y</p>
                                     </div>
                             </div>
-                            <div className='mr-10'>
-                            <FontAwesomeIcon icon={faQuoteLeftAlt} size='4x' style={{color: "#edf0fb", }} />
+                            <div className='lg:mr-10 sm:mr-0'>
+                            <FontAwesomeIcon icon={faQuoteLeftAlt} size='4x'  style={{color: "#edf0fb", }} />
                             </div>
                         </div>
                         </div>  

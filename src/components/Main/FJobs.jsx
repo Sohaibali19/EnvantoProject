@@ -16,23 +16,23 @@ function FJobs() {
                         }} />
                         </div>
                     </div>
-                    <p className='text-[#8492A6] text-[16px] relative font-nunito '>
+                    <p className='text-[#8492A6] lg:text-[16px] md:text-[16px] relative font-nunito  text-center mx-[100px]  '>
                         Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                     </p>
                 </div>
 
                 <div className=" flex justify-center  ">
-                    <nav className='mt-6 text-[16px] w-[70%] bg-white text-[#3c4858] font-bold rounded-lg  px-0 flex justify-between '>
-                            <div className='py-[11.2px] px-[64px]  bg-[#2f55d4] rounded-lg text-white'>
+                    <nav className='mt-6 lg:text-[16px] md:text-[14px] lg:w-[70%] md:w-[80%] bg-white text-[#3c4858] font-bold rounded-lg   flex lg:justify-between  md:justify-around'>
+                            <div className='py-[11.2px]   lg:px-[64px] md:px-[40px]  bg-[#2f55d4] rounded-lg text-white'>
                                 Recent Jobs
                             </div>
-                            <div className='py-[11.2px] px-[64px]  rounded-lg '>
+                            <div className='py-[11.2px]  lg:px-[64px] md:px-[40px]  rounded-lg '>
                                 Featured Jobs
                             </div>
-                            <div className='py-[11.2px] px-[64px]  rounded-lg '>
+                            <div className='py-[11.2px]   lg:px-[64px] md:px-[40px]  rounded-lg '>
                                 Part Time
                             </div>
-                            <div className='py-[11.2px] px-[64px]  rounded-lg '>
+                            <div className='py-[11.2px] lg:px-[64px] md:px-[40px]  rounded-lg '>
                                 Full Time
                             </div>
                     </nav>
@@ -41,8 +41,8 @@ function FJobs() {
                 {/* items  */}
                 <div className='flex flex-col text-[16px] justify-center items-center font-nunito '>
                     <div className='container '>
-                        {/* developer */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group ">
+                        {/* Web-developer */}
+                        <div className="dev mt-6 lg:mx-24 md:mx-20 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group ">
                             {/* top portion */}
                             <div className="top ">
                                 <div className="label     bg-[#d8dff7]   w-[38.85px] h-[38.85px] group-hover:bg-[#2f55d4] rounded-tl-lg  rounded-br-full text-white ">
@@ -52,25 +52,26 @@ function FJobs() {
                                          </li>
                                     </ul>
                                 </div>
-                                <div className='p-6  flex flex-col '>
-                                    <div className='flex justify-around items-center rounded-lg basis-[70%] mb-2'>
-                                        <div className="bg-[url('src/Images/developer.png')] w-20 h-20 mt-[-40px]"></div>
-                                        <div className='flex flex-col gap-3 text-[#8492a6]'>
-                                            <h4 className='text-[20px] font-medium text-gray-600 '>Web Developer</h4>
-                                            <h6> Web Technology Pvt.Ltd </h6>
+
+                                <div className='py-6 lg:px-6 md:px-6  flex flex-col '>
+                                    <div className='flex justify-around  lg:items-center md:items-start rounded-lg basis-[80%] mb-2 md:gap-1'>
+                                        <div className="bg-[url('src/Images/developer.png')] lg:w-20 md:w-20 lg:h-20 md:h-20 mt-[-40px]  lg:px-0 md:px-[42px]"></div>
+                                        <div className='flex flex-col text-start gap-3 text-[#8492a6] lg:ml-0 md:ml-5 md:-mt-7 lg:mt-0'>
+                                            <h4 className='lg:text-[20px] md:text-[18px]  font-medium text-gray-600 '>Web Developer</h4>
+                                            <h6 className=''> Web Technology Pvt.Ltd </h6>
                                         </div>
 
-                                        <div className='flex justify-between items-center gap-3'>
+                                        <div className='flex justify-between items-start gap-3 lg:mt-0 md:-mt-5'>
                                             <FontAwesomeIcon icon={faLocationDot} style={{color: "#2f55d4", }} /> 
-                                            <p>Oakridge Lane Richerdson</p>
+                                            <p className='md:text-sm '>Oakridge Lane Richerdson</p>
                                         </div>
 
-                                        <div className='flex'>
+                                        <div className='flex text-sm lg:mt-0 md:-mt-5'>
                                             <p className='text-[#2f55d4]'>$</p>
                                             <p>100-1200/m</p>
                                         </div>
 
-                                        <div>
+                                        <div className='lg:mt-0 md:-mt-5 text-sm'>
                                             <p>Full Time</p>
                                         </div>
 
@@ -81,19 +82,19 @@ function FJobs() {
                             {/* bottom */}
 
                             <div className="bottom">
-                            <div className='basis-[30%] p-4 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
-                                        <div>
+                            <div className='basis-[30%] lg:p-4 md:p-2 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
+                                        <div className='md:text-sm '>
                                                 <p>Experience 1-2 Years</p>
                                         </div>
                                         <div className='flex gap-2'>
-                                            <p className='text-gray-600 font-semibold'>Notes:</p>
-                                            <p>Languages Only differs in their grammer.</p>
+                                            <p className='text-gray-600 font-semibold md:text-sm'>Notes:</p>
+                                            <p className='text-sm'>Languages Only differs in their grammer.</p>
                                         </div>
 
-                                        <div className='pr-16'>
-                                            <button className='flex justify-between items-center gap-3 text-[#2f55d4]'>
+                                        <div className='lg:pr-16 md:pr-2'>
+                                            <button className='lg:flex justify-between  items-center gap-3 text-sm text-[#2f55d4]'>
                                                 <p >Apply Now</p>
-                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4", }} />
+                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4",  }} />
                                             </button>
                                         </div>
                                     </div>
@@ -101,7 +102,7 @@ function FJobs() {
                         </div>
 
                         {/* php */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-300 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
+                        <div className="dev mt-6 lg:mx-24 md:mx-20 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-300 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
                                 <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform ">
@@ -111,48 +112,49 @@ function FJobs() {
                                          </li>
                                     </ul>
                                 </div>
-                                <div className='p-6  flex flex-col '>
-                                    <div className='flex justify-around items-center rounded-lg basis-[70%] mb-2'>
-                                        <div className="bg-[url('src/Images/php.png')] w-20 h-20 mt-[-40px]"></div>
-                                        <div className='flex flex-col gap-3 text-[#8492a6]'>
-                                            <h4 className='text-[20px] font-medium text-gray-600 '>PhP Developer</h4>
-                                            <h6> Web Technology Pvt.Ltd </h6>
+                                <div className='py-6 lg:px-6 md:px-6  flex flex-col '>
+                                    <div className='flex justify-around  lg:items-center md:items-start rounded-lg basis-[80%] mb-2 md:gap-1'>
+                                        <div className="bg-[url('src/Images/php.png')] lg:w-20 md:w-20 lg:h-20 md:h-20 mt-[-40px]  lg:px-0 md:px-[42px]"></div>
+                                        <div className='flex flex-col text-start gap-3 text-[#8492a6] lg:ml-0 md:ml-5 md:-mt-7 lg:mt-0'>
+                                            <h4 className='lg:text-[20px] md:text-[18px]  font-medium text-gray-600 '>PHP Developer</h4>
+                                            <h6 className=''> Web Technology Pvt.Ltd </h6>
                                         </div>
 
-                                        <div className='flex justify-between items-center gap-3'>
+                                        <div className='flex justify-between items-start gap-3 lg:mt-0 md:-mt-5'>
                                             <FontAwesomeIcon icon={faLocationDot} style={{color: "#2f55d4", }} /> 
-                                            <p>Berkshire Circle Knoxvile</p>
+                                            <p className='md:text-sm '>Brokshire Lane Richerdson</p>
                                         </div>
 
-                                        <div className='flex'>
+                                        <div className='flex text-sm lg:mt-0 md:-mt-5'>
                                             <p className='text-[#2f55d4]'>$</p>
-                                            <p>900-1100/m</p>
+                                            <p>100-1000/m</p>
                                         </div>
 
-                                        <div>
-                                            <p>Full Time</p>
+                                        <div className='lg:mt-0 md:-mt-5 text-sm'>
+                                            <p>Part Time</p>
                                         </div>
 
                                     </div>
                                     </div>
+
 
                             </div>
                             {/* bottom */}
 
                             <div className="bottom">
-                            <div className='basis-[30%] p-4 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
-                                        <div>
+                            <div className='basis-[30%] lg:p-4 md:p-2 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
+                                        <div className='md:text-sm '>
                                                 <p>Experience 1-2 Years</p>
                                         </div>
                                         {/* <div className='flex gap-2'>
-                                            <p className='text-gray-600 font-semibold'>Notes:</p>
-                                            <p>Languages Only differs in their grammer.</p>
+                                            <p className='text-gray-600 font-semibold md:text-sm'>Notes:</p>
+                                            <p className='text-sm'>Languages Only differs in their grammer.</p>
                                         </div> */}
 
-                                        <div className='pr-16'>
-                                            <button className='flex justify-between items-center gap-3 text-[#2f55d4]'>
+                                        <div className='lg:pr-16 md:pr-2'>
+                                            <button className='lg:flex justify-between  items-center gap-3 text-sm text-[#2f55d4]'>
                                                 <p >Apply Now</p>
-                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4", }} />
+                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4",  }} />
                                             </button>
                                         </div>
                                     </div>
@@ -161,7 +163,7 @@ function FJobs() {
 
                         {/* graphics */}
 
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
+                        <div className="dev mt-6 lg:mx-24 md:mx-20 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
                                 <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform z-[100]">
@@ -171,25 +173,25 @@ function FJobs() {
                                          </li>
                                     </ul>
                                 </div>
-                                <div className='p-6  flex flex-col '>
-                                    <div className='flex justify-around items-center rounded-lg basis-[70%] mb-2'>
-                                        <div className="bg-[url('src/Images/graphic.png')] w-20 h-20 mt-[-40px]"></div>
-                                        <div className='flex flex-col gap-3 text-[#8492a6]'>
-                                            <h4 className='text-[20px] font-medium text-gray-600 '>Graphic Designer</h4>
-                                            <h6> Web Technology Pvt.Ltd </h6>
+                                <div className='py-6 lg:px-6 md:px-6  flex flex-col '>
+                                    <div className='flex justify-around  lg:items-center md:items-start rounded-lg basis-[80%] mb-2 md:gap-1'>
+                                        <div className="bg-[url('src/Images/graphic.png')] lg:w-20 md:w-20 lg:h-20 md:h-20 mt-[-40px]  lg:px-0 md:px-[42px]"></div>
+                                        <div className='flex flex-col text-start gap-3 text-[#8492a6] lg:ml-0 md:ml-5 md:-mt-7 lg:mt-0'>
+                                            <h4 className='lg:text-[20px] md:text-[18px]  font-medium text-gray-600 '>Graphic Designer</h4>
+                                            <h6 className=''> Web Technology Pvt.Ltd </h6>
                                         </div>
 
-                                        <div className='flex justify-between items-center gap-3'>
+                                        <div className='flex justify-between items-start gap-3 lg:mt-0 md:-mt-5'>
                                             <FontAwesomeIcon icon={faLocationDot} style={{color: "#2f55d4", }} /> 
-                                            <p>Sumner Street Anaheim</p>
+                                            <p className='md:text-sm '>Brokshire Lane Richerdson</p>
                                         </div>
 
-                                        <div className='flex'>
+                                        <div className='flex text-sm lg:mt-0 md:-mt-5'>
                                             <p className='text-[#2f55d4]'>$</p>
-                                            <p>800-1000/m</p>
+                                            <p>100-1000/m</p>
                                         </div>
 
-                                        <div>
+                                        <div className='lg:mt-0 md:-mt-5 text-sm'>
                                             <p>Part Time</p>
                                         </div>
 
@@ -200,19 +202,19 @@ function FJobs() {
                             {/* bottom */}
 
                             <div className="bottom">
-                            <div className='basis-[30%] p-4 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
-                                        <div>
-                                                <p>Experience 0-1 Years</p>
+                            <div className='basis-[30%] lg:p-4 md:p-2 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
+                                        <div className='md:text-sm '>
+                                                <p>Experience 1-2 Years</p>
                                         </div>
                                         <div className='flex gap-2'>
-                                            <p className='text-gray-600 font-semibold'>Notes:</p>
-                                            <p>Languages Only differs in their grammer.</p>
+                                            <p className='text-gray-600 font-semibold md:text-sm'>Notes:</p>
+                                            <p className='text-sm'>Languages Only differs in their grammer.</p>
                                         </div>
 
-                                        <div className='pr-16'>
-                                            <button className='flex justify-between items-center gap-3 text-[#2f55d4]'>
+                                        <div className='lg:pr-16 md:pr-2'>
+                                            <button className='lg:flex justify-between  items-center gap-3 text-sm text-[#2f55d4]'>
                                                 <p >Apply Now</p>
-                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4", }} />
+                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4",  }} />
                                             </button>
                                         </div>
                                     </div>
@@ -220,7 +222,7 @@ function FJobs() {
                         </div>
 
                         {/* UI/UX */}
-                        <div className="dev mt-6 mx-24 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
+                        <div className="dev mt-6 lg:mx-24 md:mx-20 hover:transition hover:ease-in-out  hover:-translate-y-2 hover:delay-500 duration-300 bg-white border-[1px] border-gray-[150] hover:border-[#2f55d4] rounded-lg text-[#8492a6] group">
                             {/* top portion */}
                             <div className="top ">
                                 <div className="label     bg-[#d8dff7]  group-hover:bg-[#2f55d4] w-[38.85px] h-[38.85px]  rounded-tl-lg rounded-br-full text-white transform">
@@ -230,25 +232,25 @@ function FJobs() {
                                          </li>
                                     </ul>
                                 </div>
-                                <div className='p-6  flex flex-col '>
-                                    <div className='flex justify-around items-center rounded-lg basis-[70%] mb-2'>
-                                        <div className="bg-[url('src/Images/ui.png')] w-20 h-20 mt-[-40px]"></div>
-                                        <div className='flex flex-col gap-3 text-[#8492a6]'>
-                                            <h4 className='text-[20px] font-medium text-gray-600 '>UI/UX Designer</h4>
-                                            <h6> Web Themes Pvt.Ltd </h6>
+                                <div className='py-6 lg:px-6 md:px-6  flex flex-col '>
+                                    <div className='flex justify-around  lg:items-center md:items-start rounded-lg basis-[80%] mb-2 md:gap-1'>
+                                        <div className="bg-[url('src/Images/ui.png')] lg:w-20 md:w-20 lg:h-20 md:h-20 mt-[-40px]  lg:px-0 md:px-[42px]"></div>
+                                        <div className='flex flex-col text-start gap-3 text-[#8492a6] lg:ml-0 md:ml-5 md:-mt-7 lg:mt-0'>
+                                            <h4 className='lg:text-[20px] md:text-[18px]  font-medium text-gray-600 '>UI/UX Designer</h4>
+                                            <h6 className=''> Web Themes Pvt.Ltd </h6>
                                         </div>
 
-                                        <div className='flex justify-between items-center gap-3'>
+                                        <div className='flex justify-between items-start gap-3 lg:mt-0 md:-mt-5'>
                                             <FontAwesomeIcon icon={faLocationDot} style={{color: "#2f55d4", }} /> 
-                                            <p>Pnewood Drive Chichago</p>
+                                            <p className='md:text-sm '>Brokshire Lane Richerdson</p>
                                         </div>
 
-                                        <div className='flex'>
+                                        <div className='flex text-sm lg:mt-0 md:-mt-5'>
                                             <p className='text-[#2f55d4]'>$</p>
-                                            <p>100-1200/m</p>
+                                            <p>100-1000/m</p>
                                         </div>
 
-                                        <div>
+                                        <div className='lg:mt-0 md:-mt-5 text-sm'>
                                             <p>Freelancer</p>
                                         </div>
 
@@ -259,19 +261,19 @@ function FJobs() {
                             {/* bottom */}
 
                             <div className="bottom">
-                            <div className='basis-[30%] p-4 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
-                                        <div>
+                            <div className='basis-[30%] lg:p-4 md:p-2 bg-[#f8f9fc] w-full flex justify-between items-center rounded-lg '>
+                                        <div className='md:text-sm '>
                                                 <p>Experience 1-2 Years</p>
                                         </div>
-                                        {/* <div className='flex gap-2'>
-                                            <p className='text-gray-600 font-semibold'>Notes:</p>
-                                            <p>Languages Only differs in their grammer.</p>
-                                        </div> */}
+                                        <div className='flex gap-2'>
+                                            <p className='text-gray-600 font-semibold md:text-sm'>Notes:</p>
+                                            <p className='text-sm'>Languages Only differs in their grammer.</p>
+                                        </div>
 
-                                        <div className='pr-16'>
-                                            <button className='flex justify-between items-center gap-3 text-[#2f55d4]'>
+                                        <div className='lg:pr-16 md:pr-2'>
+                                            <button className='lg:flex justify-between  items-center gap-3 text-sm text-[#2f55d4]'>
                                                 <p >Apply Now</p>
-                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4", }} />
+                                                <FontAwesomeIcon icon={faAnglesRight} style={{color: "#2f55d4",  }} />
                                             </button>
                                         </div>
                                     </div>

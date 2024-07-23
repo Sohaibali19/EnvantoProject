@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="bg-[#202942]  w-full left-0 right-0  text-[#ADB5BD]   font-nunito">
             <div className="mx-auto w-full  p-4 py-6 lg:py-8">
-                <div className="md:flex flex justify-around mt-5  md:justify-around">
+                <div className="lg:flex sm:flex-col lg:flex-row justify-around mt-5  md:justify-around">
                     <div className=" flex basis-1/4 items-right   flex-col text-[16px] mb-6 px-3 pb-2 mx-0 mt-0   md:mb-0">
                         <Link to="/" className="flex ">
                             <img
@@ -17,7 +17,7 @@ export default function Footer() {
                             />
                         </Link>
                         <p className='text-[16px]  mt-6 mb-4 ml-[72px] text-left text-wrap'>At vero eas et accusamus etiusto odio disnissim os ducimus qui blanditiis praesentium</p>
-                        <div className="flex mt-4 mr-10 space-x-2 sm:justify-center sm:mt-0">
+                        <div className="flex mt-4 lg:ml-16 sm:ml-16  space-x-2   sm:mt-0">
                         <Link to="#" className=" mr-[5px] mb-[5px] border border-r-1 border-[#ADB5BD] rounded-full p-2 hover:bg-blue-500 hover:text-white  ">
                             <svg
                                 className="w-4 h-4"
@@ -88,7 +88,7 @@ export default function Footer() {
                     <div className="md:flex md:justify-around md:gap-0   basis-[75%] sm:gap-0 sm:flex">
                         <div>
                             <h2 className="mb-6  font-semibold text-[18px] text-white ">Company</h2>
-                            <ul className="text-[#adb5bd] flex flex-col items-start text-[16px]  ml-10 mb-3">
+                            <ul className="text-[#adb5bd] flex flex-col items-start text-[16px]  ml-0 mb-3">
                                 <li className="mb-3">
                                   
                                     <Link to="/" className="hover:text-white">
@@ -192,7 +192,7 @@ export default function Footer() {
 
                         <div>
                         <h2 className="mb-6  font-semibold text-[18px] text-white ">Resources</h2>
-                        <ul className="text-[#adb5bd] flex flex-col items-start text-[16px]  ml-6 mb-3">
+                        <ul className="text-[#adb5bd] flex flex-col items-start text-[16px]   mb-3">
                                 <li className="mb-3">
                                   
                                     <Link to="/" className="hover:text-white">

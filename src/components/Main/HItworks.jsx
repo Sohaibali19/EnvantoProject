@@ -16,11 +16,11 @@ function HItworks() {
                         }} />
                         </div>
                   </div>
-                  <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
               </div>
-              <div className="categories font-nunito  flex flex-wrap items-start justify-center my-4  mx-auto gap-3 py-[100px]">
+              <div className="categories font-nunito  flex flex-wrap items-start justify-center my-4  mx-auto lg:gap-3 md:gap-1 py-[100px]">
                   {/* register an account  */}
                     <div className="RegisterAccount    w-[30%]     mt-6 pt-2 px-3 ">
                     <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
@@ -125,15 +125,15 @@ function HItworks() {
         <div className='w-full justify-center right-0 left-0'>
                <div className="bg-[url('src/Images/bg-counters.jpg')] bg-cover bg-center w-[100%] h-[300px]  right-0 left-0 ">
                 <div className='bg-[#5e77ccbf] opacity-75 w-full h-[300px] z-0 flex items-center justify-center'>
-                  <div className="container flex justify-evenly items-center sm:text-[16px] md:text-[20px] font-nunito">
+                  <div className="container flex lg:justify-evenly sm:justify-center items-center sm:text-[16px] md:text-[20px] font-nunito">
                     {/* first */}
                     <div className="companies flex  justify-center items-center py-6 px-2 text-white">
                       <div className="icon ">
-                      <FontAwesomeIcon icon={faLandmark} size='2xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
+                      <FontAwesomeIcon icon={faLandmark} lg:size='2xl' md:size='xl' style={{color:"#ffffff", marginRight:"16px"}}/>
                       </div>
                       <div className="company flex flex-col mt-4 justify-start items-start">
-                        <p className='md:text-[42.25px] sm:text-[36.25px] mb-1 font-semibold '>120</p>
-                        <p>COMPANIES</p>
+                        <p className='lg:text-[42.25px] md:text-[36.25px] mb-1 font-semibold '>120</p>
+                        <p className='text-sm'>COMPANIES</p>
                       </div>
 
                     </div>
@@ -141,33 +141,33 @@ function HItworks() {
                     {/* second */}
                     <div className="companies flex  justify-center items-center py-6 px-2 text-white">
                       <div className="icon ">
-                      <FontAwesomeIcon icon={faFileAlt} size='2xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
+                      <FontAwesomeIcon icon={faFileAlt} lg:size='2xl' md:size='xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
                       </div>
                       <div className="company flex flex-col mt-4 justify-start items-start">
-                        <p className='md:text-[42.25px] sm:text-[36.25px] mb-1 font-semibold '>480</p>
-                        <p>APPLICATIONS</p>
+                        <p className='lg:text-[42.25px] md:text-[36.25px] mb-1 font-semibold '>480</p>
+                        <p className='text-sm'>APPLICATIONS</p>
                       </div>
                     </div>
 
                     {/* third */}
                     <div className="companies flex  justify-center items-center py-6 px-2 text-white">
                       <div className="icon ">
-                      <FontAwesomeIcon icon={faCalendarCheck} size='2xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
+                      <FontAwesomeIcon icon={faCalendarCheck} lg:size='2xl' md:size='xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
                       </div>
                       <div className="company flex flex-col mt-4 justify-start items-start">
-                        <p className='md:text-[42.25px] sm:text-[36.25px] mb-1 font-semibold '>120</p>
-                        <p>JOBS POSTED</p>
+                        <p className='lg:text-[42.25px] md:text-[36.25px] mb-1 font-semibold '>230</p>
+                        <p className='text-sm'>JOBS POSTED</p>
                       </div>
                     </div>
 
                      {/* fourth */}
                      <div className="companies flex  justify-center items-center py-6 px-2 text-white">
                       <div className="icon ">
-                      <FontAwesomeIcon icon={faUserGroup} size='2xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
+                      <FontAwesomeIcon icon={faUserGroup} lg:size='2xl' md:size='xl'  style={{color:"#ffffff", marginRight:"16px"}}/>
                       </div>
                       <div className="company flex flex-col mt-4 justify-start items-start">
-                        <p className='md:text-[42.25px] sm:text-[36.25px] mb-1 font-semibold '>200</p>
-                        <p>MEMBERS</p>
+                        <p className='lg:text-[42.25px] sm:text-[36.25px] mb-1 font-semibold '>200</p>
+                        <p className='text-sm'>MEMBERS</p>
                       </div>
                     </div>
 

@@ -16,7 +16,7 @@ function  Categ( {selected, setSelected}) {
         <div className="icon mt-3 mb-2 xl:ml-3 lg:ml-1 ">
              <FontAwesomeIcon icon={faTableList}  style={{color: "#6c717a",}} />
       </div>
-    <div className='w-[90%]  right-0  ml-6 mt-1 font-medium absolute text-[14px] top-0  cursor-pointer'>
+    <div className='w-[90%]  right-0  ml-6  font-medium absolute text-[14px] top-0  cursor-pointer'>
         <div  className='bg-white w-full p-2 flex items-center justify-between rounded-lg text-gray-400 ' 
         onClick={(e) => setIsOpen(!isOpen)} >
           

@@ -11,6 +11,7 @@ import SuccessStories from '../Main/SuccessStories'
 import Oclient from '../Main/Oclient'
 import CareerAdvice from '../Main/CareerAdvice'
 import Subscribe from '../Main/Subscribe'
+import Nav from './Nav'
 
 
 function Header() {

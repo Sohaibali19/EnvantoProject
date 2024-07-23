@@ -8,7 +8,7 @@ function Home() {
                 <h6 className=' mb-4 text-[16px] text-[#f8f9fc]'>
                     FIND JOBS, CREATE TRACKABLE RESUMES AND ENRICH YOUR APPLICATION.
                 </h6>
-                <h1 className=' font-bold text-[45px] mb-[1.5rem] tracking-[1px] text-[#ffffff] '>
+                <h1 className=' font-bold lg:text-[45px] md:text-[40px] mb-[1.5rem] tracking-[1px] text-[#ffffff] lg:text-nowrap md:text-wrap md:text-center'>
                     The Easiest Way to Get Your New Job
                 </h1>
             </div>

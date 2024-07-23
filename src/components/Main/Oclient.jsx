@@ -16,7 +16,7 @@ function Oclient() {
                         }} />
                         </div>
                     </div>
-                <p className='text-[#8492A6] text-[16px] relative mx-[168px] text-wrap'>
+                <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
                 Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                 </p>
             </div>
