@@ -6,28 +6,28 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function Pcat() {
   return (
-    <section className='popular-cat flex flex-col  items-center  w-screen right-0 left-0 py-[100px]'>
+    <section className='popular-cat flex flex-col  items-center  w-screen right-0 left-0 py-[100px] md:py-[100px] sm:py-[50px]'>
         <div className='container'>
             <div className='heading flex flex-col items-center mb-2 relative'>
               <div className='pb-[48px] mb-2'>
-                <h4 className='text-[30px] flex   relative '>Popu<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px] w decoration-card-blue  decoration-blue-700'>lar Cat</h4>egories</h4>
+                <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Popu<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  underline-offset-[30px] underline-w-[5px] w decoration-card-blue  decoration-blue-700'>lar Cat</h4>egories</h4>
                 <div className="logo flex   justify-center relative">
                 <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '25px'
                 }} />
                 
                 </div>
                 </div>
-                <p className='text-[#8492A6] text-[16px] relative  text-center mx-[100px] '>
+                <p className='text-[#8492A6] text-[16px] relative  text-center mx-[100px] md:mx-[100px] sm:mx-[6px] '>
                 Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                 </p>
 
 
 
             </div>
-            <div className="categories font-nunito  flex flex-wrap  lg:items-center md:items-center lg:justify-center md:justify-center my-6    lg:gap-5 md:gap-3 p-20  ">
+            <div className="categories font-nunito  flex flex-wrap  items-center justify-center md:items-center md:justify-center my-6 sm:my-0 md:my-6    lg:gap-5 md:gap-3 p-20 md:p-20 sm:px-4 sm:py-20 sm:gap-5 ">
 
                {/* Developer */}
-              <div className="developer    lg:w-[22%] md:w-[47%]   transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300">
+              <div className="developer    lg:w-[22%] md:w-[47%] sm:w-full  transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                     
@@ -42,7 +42,7 @@ function Pcat() {
                 </div>
               </div>
               {/* technology */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300 duration-300  ">
+              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300 duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 rounded-full m-4 bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faComputer}  style={{color: "#064ecb", }} />
@@ -56,7 +56,7 @@ function Pcat() {
               </div>
 
                 {/* Accounting / Finance */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
+              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faWandMagicSparkles}  style={{color: "#064ecb", }} />
@@ -69,7 +69,7 @@ function Pcat() {
                 </div>
               </div>
                 {/* Government */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
+              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faLandmark}  style={{color: "#064ecb", }} />
@@ -83,13 +83,13 @@ function Pcat() {
               </div>
 
                 {/* Construction and facilitation */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
+              <div className="Construction and Facilitation lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faBuilding}  style={{color: "#064ecb", }} />
                 
                   </div>
-                  <p className='text-[#3c4858] text-[18px] mb-2'>Construction and Facilitation</p>
+                  <p className='text-[#3c4858] text-[18px] mb-2 '>Construction / Facilities</p>
                   <div className="jobs">
                     <p className='text-[#2eca8b] text-center text-[16px]'>2000 Jobs</p>
                   </div>
@@ -97,7 +97,7 @@ function Pcat() {
               </div>
 
                 {/* Telecommunication */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
+              <div className="telecommunication lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faLocationArrow}  style={{color: "#064ecb", }} />
@@ -110,7 +110,7 @@ function Pcat() {
                 </div>
               </div>
                 {/* Human Resources */}
-              <div className="developer lg:w-[22%] md:w-[47%]  hover:-translate-y-2 hover:delay-300  duration-300  ">
+              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out  hover:-translate-y-2 hover:delay-300  duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faPerson}  style={{color: "#064ecb", }} />
@@ -124,7 +124,7 @@ function Pcat() {
               </div>
 
                 {/* Design and Multimedia */}
-              <div className="developer lg:w-[22%] md:w-[47%] transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ]">
+              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300  ]">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faTvAlt}  style={{color: "#064ecb", }} />

@@ -17,9 +17,9 @@ import Nav from './Nav'
 function Header() {
   return (
     <div className='bg-none overflow-x-hidden'>
-        <div className='bg-[#282c32b3] w-screen relative overflow-x-hidden right-0 top-0 h-screen font-nunito '>
-          <div className="bg-[url('src/Images/bg-home.jpg')] bg-cover bg-center w-full  h-full  bg-[#282c32b3]  top-0 left-0  mb-4 ">
-              <div className='bg-[#282c32b3] w-screen  h-screen '>
+        <div className='bg-[#282c32b3] w-screen relative overflow-x-hidden right-0 top-0 h-screen md:h-screen sm:h-[120vh]  font-nunito '>
+          <div className="bg-[url('src/Images/bg-home.jpg')] bg-auto bg-center w-screen h-screen md:h-screen sm:h-[120vh]  bg-[#282c32b3]  top-0 left-0   ">
+              <div className='bg-[#282c32b3] w-screen  h-screen  md:h-screen sm:h-[120vh]'>
                   <TopHeader />
                   <Middle />
                   <Navbar />

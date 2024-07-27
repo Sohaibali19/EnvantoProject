@@ -10,7 +10,7 @@ import {  faUser, faEnvelope, faPhone, } from '@fortawesome/free-solid-svg-icons
 function Middle() {
   const [selected, setSelected] = useState("");
   return (
-    <div className='  py-4 bg-[#ffffff33]  bg-opacity-80  md:invisible lg:visible '>
+    <div className='  py-4 bg-[#ffffff33]  bg-opacity-80  sm:invisible lg:visible '>
             
             <div className='flex justify-between items-center text-white px-36 '>
                     <div className="number+email flex  space-x-5 ">

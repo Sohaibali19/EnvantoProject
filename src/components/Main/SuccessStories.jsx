@@ -20,23 +20,24 @@ function SuccessStories() {
         infinite: true,
         autoplaySpeed: 2000,
         slidesToShow: 2,
+       
         slidesToScroll: 1,
         autoplay: true,
       };
 
 
   return (
-    <section className='Success-stories flex flex-col items-center  w-screen right-0 left-0 py-[100px] '>
+    <section className='Success-stories flex flex-col items-center  w-screen right-0 left-0 py-[100px] md:py-[100px] sm:py-[50px] '>
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
               <div className='pb-[48px] '>
-                        <h4 className='text-[30px] flex   relative '>Our Su<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>ccess&nbsp;</h4>Stories</h4>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Our Su<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>ccess&nbsp;</h4>Stories</h4>
                         <div className="logo flex   justify-center relative">
-                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'14px', marginRight: '0px'
                         }} />
                         </div>
                     </div>
-                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] md:mx-[100px] sm:mx-[6px] text-center'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
 
@@ -48,11 +49,11 @@ function SuccessStories() {
               {/* <div className="categories font-nunito  flex flex-wrap items-center justify-center my-7 px-[100px]  py-[100px]"> */}
              
                 
-                    <div className="main m-auto  lg:w-[80%] md:w-full md:px-10 ">
+                    <div className="main mx-auto  lg:w-[80%] md:w-full sm:w-full sm:px-0 md:px-10 ">
                         <div className='mt-20'>
                         <Slider  {...settings}>
                             {data.map((d) =>(
-                                <div className="div bg-[#f8f9fc] p-6 rounded-lg text-[#8492a6] font-nunito ">
+                                <div className="div bg-[#f8f9fc] p-6 rounded-lg text-[#8492a6]  font-nunito ">
                                     <p className='description mb-12 text-left'> {d.review}</p>
                                     <div className='w-full h-full'>
                         <div className="bottom flex  justify-between  items-center ">

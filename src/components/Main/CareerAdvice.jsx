@@ -22,15 +22,15 @@ function  CareerAdvice() {
                 </div>
 
 
-              <div className="categories font-nunito w-[90%] px-3 flex  items-start justify-center my-4 relative  mx-auto gap-3 py-[100px]">
+              <div className="categories font-nunito w-[100%] px-3 flex  items-center justify-center my-4 relative  mx-auto gap-3 py-[100px]">
                   {/* How Apps is the world to IT  */}
                     <div className="first-one  relative lg:w-[30%] md:w-[100%]    mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
 
                     <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
-                            <div className="bg-[url('src/Images/img-4.jpg')]  bg-cover bg-center w-full h-[300px] relative  rounded-tr-lg rounded-tl-lg">
+                            <div className="bg-[url('src/Images/img-4.jpg')]  bg-cover bg-center w-full lg:h-full relative  rounded-tr-lg rounded-tl-lg">
 
-                            <div className=' bg-[#282c32b3] w-[400px] h-[300px] flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
+                            <div className=' bg-[#282c32b3] w-full h-full flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
                                 <div className='flex justify-between items-center '>
                                     {/* Name and Date */}
                                     <div className='flex flex-col justify-center my-5 px-4'>
@@ -99,9 +99,9 @@ function  CareerAdvice() {
                   <div className="firstone  relative lg:w-[30%] md:w-[100%]    mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
                   <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
-                            <div className="bg-[url('src/Images/img-5.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
+                            <div className="bg-[url('src/Images/img-5.jpg')] relative bg-cover bg-center w-full h-full   rounded-tr-lg rounded-tl-lg">
 
-                            <div className=' bg-[#282c32b3] w-full h-[300px] flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
+                            <div className=' bg-[#282c32b3] w-full h-full flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
                                 <div className='flex justify-between items-center '>
                                     {/* Name and Date */}
                                     <div className='flex flex-col justify-center my-5 px-4'>

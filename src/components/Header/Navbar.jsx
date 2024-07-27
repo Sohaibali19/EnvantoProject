@@ -9,11 +9,11 @@ function Navbar() {
   return (
     <div className='  '>
                     <div
-                        className=" lg:justify-around md:justify-between items-center lg:mt-4 md:mt-[-68px]  md:absolute lg:relative lg:bg-transparent md:bg-white lg:bg-none lg:w-full lg:flex  md:flex md:w-full"
+                        className="items-center lg:justify-around lg:relative sm:absolute lg:bg-transparent  lg:bg-none lg:w-full  sm:justify-between lg:mt-4  md:mt-[-70px] sm:mt-[-128px]    sm:bg-white sm:flex sm:w-full  sm:overflow-y-visible "
                         id="mobile-menu-2"
                     >
                         <div className="logo">
-                            <img src='src/Images/logo-light.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] md:h-[18px] lg:relative md:absolute  md:-mt-3 lg:ml-0 md:ml-7 lg:mt-0    ' />
+                            <img src='src/Images/logo-dark.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] sm:h-[18px] lg:relative sm:absolute   lg:ml-0 md:ml-10 sm:ml-2 lg:mt-0 sm:-mt-2' />
                         </div>
                         {/* <div className="logo">
                             <img src='src/Images/logo-dark.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] md:h-[14px] md:visible lg:invisible  ' />
@@ -27,7 +27,7 @@ function Navbar() {
 
                         
                         
-                        <ul className="flex flex-col md:justify-around md:items-center  my-3  font-medium  text-[14px] lg:flex-row lg:space-x-10 md:space-x-0 lg:mt-4 md:mt-10 lg:rounded-none md:rounded-xl   lg:px-0 md:px-5    lg:relative md:absolute lg:ml-0 md:ml-16 lg:visible md:invisible ">
+                        <ul className="flex flex-col sm:justify-around sm:items-center  my-3  font-medium  text-[14px] lg:flex-row lg:space-x-10 sm:space-x-0 lg:mt-4 sm:mt-10 lg:rounded-none sm:rounded-xl   lg:px-0 md:px-5    lg:relative sm:absolute lg:ml-0 sm:ml-16 lg:visible sm:invisible ">
                             <li>
                                 <NavLink
                                 to="/"
@@ -83,11 +83,11 @@ function Navbar() {
                      
                      <div className=''>
                      
-                     <div className=' absolute   lg:ml-0 md:visible lg:invisible md:mt-5 md:mr-10    '>
-                        <FontAwesomeIcon icon={faBars} size='2xl' style={{color: "black", paddingTop:"4px", paddingRight:"4px"}} className='' />
+                     <div className=' absolute   lg:ml-0 md:visible lg:invisible md:mt-6 md:mr-10 sm:mr-40  sm:mt-6   '>
+                        <FontAwesomeIcon icon={faBars} size='xl' style={{color: "#6c717a", paddingTop:"4px", paddingRight:"4px"}} className='' />
                         </div>
-                        <div className="post-job-button  lg:pb-0 md:pb-4">
-                        <button className='bg-[#2f55d4] text-white flex rounded-lg px-5  py-2 lg:mt-0 md:mt-5 lg:mr-0 md:mr-36  lg:ml-0 md:ml-10
+                        <div className="post-job-button  lg:pb-0 sm:pb-4">
+                        <button className='bg-[#2f55d4] text-white flex rounded-lg px-5  py-[8px] lg:mt-0 sm:mt-5 lg:mr-0 md:mr-20 sm:mr-8  lg:ml-0 sm:ml-10 
                         '>
                             <FontAwesomeIcon icon={faCloudArrowUp} style={{color: "#ffffff", paddingTop:"4px", paddingRight:"4px"}} />
                             <p className='text-[16px] '>Post a Job</p>
