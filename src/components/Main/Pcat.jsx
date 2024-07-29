@@ -10,7 +10,7 @@ function Pcat() {
         <div className='container'>
             <div className='heading flex flex-col items-center mb-2 relative'>
               <div className='pb-[48px] mb-2'>
-                <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Popu<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  underline-offset-[30px] underline-w-[5px] w decoration-card-blue  decoration-blue-700'>lar Cat</h4>egories</h4>
+                <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Popu<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  md:underline-offset-[30px] sm:underline-offset-[29px] underline-w-[5px] w decoration-card-blue  decoration-blue-700'>lar Cat</h4>egories</h4>
                 <div className="logo flex   justify-center relative">
                 <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '25px'
                 }} />

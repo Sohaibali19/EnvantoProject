@@ -16,7 +16,7 @@ function RegForm() {
   return (
     <div className='Registration-form'>
         <div className="reg-form mb-3     flex  justify-around  items-center rounded-lg ">
-            <form className='lg:flex  md:flex-shrink relative  justify-around items-center gap-6 xl:gap-6 lg:gap-6 md:gap-3 sm:gap-6  bg-[#ffffff33] lg:py-5 md:py-10 sm:py-5 xl:px-5 lg:px-5 md:px-10 sm:px-5 rounded-lg'>
+            <form className='lg:flex  md:flex-shrink  relative  justify-around items-center gap-6  lg:gap-6 md:gap-3 sm:gap-6  bg-[#ffffff33] lg:py-5 md:py-10 sm:py-5   lg:px-5 md:px-10 sm:px-5 rounded-lg'>
 
             <div className='md:flex  lg:flex-none lg:gap-3 md:gap-3  md:mb-2 lg:mb-0 '>
             <div className='registration-form  ' >
@@ -26,7 +26,7 @@ function RegForm() {
                         <FontAwesomeIcon icon={faBriefcase}  style={{color: "#6c717a",}} />
                         </div>
                         <div className=''>
-                        <input {...register("firstName")} type='text' className='xl:py-1.5 lg:py-1 xl:pr-[100px] lg:pr-[0px] pl-1.5  mx-3 mt-[10px] lg:mt-2 md:mt-2.5 outline-none rounded-lg  placeholder-[border-none] text-black' placeholder="Jobs keyboards..." />
+                        <input {...register("firstName")} type='text' className='xl:py-1 lg:py-1 xl:pr-[0px] lg:pr-[0px] pl-1.5  mx-3 mt-[10px] lg:mt-2 md:mt-2.5 outline-none rounded-lg  placeholder-[border-none] text-black' placeholder="Jobs keyboards..." />
                         </div>
                     </div>
                 </div>

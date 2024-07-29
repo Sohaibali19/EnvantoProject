@@ -10,7 +10,7 @@ function FJobs() {
         <div className='container'>
                 <div className='heading flex flex-col items-center justify-center mb-2 relative'>
                     <div className='pb-[48px] '>
-                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Find<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>&nbsp;Your&nbsp;</h4>Jobs</h4>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Find<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  md:underline-offset-[30px] sm:underline-offset-[28px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>&nbsp;Your&nbsp;</h4>Jobs</h4>
                         <div className="logo flex   justify-center relative">
                                 <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'10px', marginRight: '0px',
                         }}  />
@@ -22,17 +22,17 @@ function FJobs() {
                 </div>
 
                 <div className=" md:flex flex sm:flex-col sm:items-center justify-center sm:mx-3 mx-0 md:mx-0">
-                    <nav className='mt-6 lg:text-[16px] md:text-[14px] lg:w-[70%] md:w-[80%] sm:w-full bg-white text-[#3c4858] font-bold rounded-lg   flex md:flex-row sm:flex-col lg:justify-between  md:justify-around text-center'>
-                            <div className='py-[11.2px]   lg:px-[64px] md:px-[40px]  bg-[#2f55d4] rounded-lg text-white'>
+                    <nav className='mt-6 lg:text-[16px] md:text-[14px] lg:w-[80%] xl:[70%] md:w-[80%] sm:w-full bg-white text-[#3c4858] font-bold rounded-lg   flex md:flex-row sm:flex-col lg:justify-between  md:justify-around text-center'>
+                            <div className='py-[11.2px]   lg:px-[40px] md:px-[40px]  bg-[#2f55d4] rounded-lg text-white'>
                                 Recent Jobs
                             </div>
-                            <div className='py-[11.2px]  lg:px-[64px] md:px-[40px]  rounded-lg text-center '>
+                            <div className='py-[11.2px]  lg:px-[40px] md:px-[40px]  rounded-lg text-center '>
                                 Featured Jobs
                             </div>
-                            <div className='py-[11.2px]   lg:px-[64px] md:px-[40px]  rounded-lg '>
+                            <div className='py-[11.2px]   lg:px-[40px] md:px-[40px]  rounded-lg '>
                                 Part Time
                             </div>
-                            <div className='py-[11.2px] lg:px-[64px] md:px-[40px]  rounded-lg '>
+                            <div className='py-[11.2px] lg:px-[40px] md:px-[40px]  rounded-lg '>
                                 Full Time
                             </div>
                     </nav>

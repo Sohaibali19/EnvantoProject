@@ -20,10 +20,22 @@ function SuccessStories() {
         infinite: true,
         autoplaySpeed: 2000,
         slidesToShow: 2,
-       
         slidesToScroll: 1,
         autoplay: true,
       };
+
+      responsive: [{
+        breakpoint: 380,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay:true,
+          infinite: true,
+          
+          
+          
+        }
+      }]
 
 
   return (
@@ -31,9 +43,9 @@ function SuccessStories() {
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
               <div className='pb-[48px] '>
-                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Our Su<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>ccess&nbsp;</h4>Stories</h4>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Our Su<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  md:underline-offset-[30px] sm:underline-offset-[29px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>ccess&nbsp;</h4>Stories</h4>
                         <div className="logo flex   justify-center relative">
-                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'14px', marginRight: '0px'
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
                         }} />
                         </div>
                     </div>
@@ -49,7 +61,7 @@ function SuccessStories() {
               {/* <div className="categories font-nunito  flex flex-wrap items-center justify-center my-7 px-[100px]  py-[100px]"> */}
              
                 
-                    <div className="main mx-auto  lg:w-[80%] md:w-full sm:w-full sm:px-0 md:px-10 ">
+                    <div className="main mx-auto  lg:w-[80%] md:w-full sm:w-[110vh] sm:px-0 md:px-10 ">
                         <div className='mt-20'>
                         <Slider  {...settings}>
                             {data.map((d) =>(

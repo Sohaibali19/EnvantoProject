@@ -6,29 +6,30 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function  CareerAdvice() {
   return (
-    <section className='popular-cat flex flex-col items-center w-screen right-0 left-0 py-[100px] bg-[#f8f9fc]'>
+    <section className='popular-cat flex flex-col items-center w-screen right-0 left-0 py-[100px] md:py-[100px] sm:py-[50px] bg-[#f8f9fc]'>
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
-              <div className='pb-[48px] '>
-                        <h4 className='text-[30px] flex   relative '>Car<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>eer&nbsp;Ad</h4>vice</h4>
+              <div className='pb-[48px] mb-2 '>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Car<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  md:underline-offset-[30px] sm:underline-offset-[29px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>eer&nbsp;Ad</h4>vice</h4>
                         <div className="logo flex   justify-center relative">
                                 <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
                         }} />
                         </div>
                     </div>
-                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
+                  <p className='text-[#8492A6] text-[16px] relative mx-[100px] md:mx-[100px] sm:mx-[6px] text-center'>
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
                 </div>
 
 
-              <div className="categories font-nunito w-[100%] px-3 flex  items-center justify-center my-4 relative  mx-auto gap-3 py-[100px]">
+              <div className="categories font-nunito w-[100%] px-3 flex md:flex-nowrap sm:flex-wrap items-center justify-center my-4 relative  mx-auto gap-3 py-[100px] md:py-[100px]  sm:py-[10px]">
                   {/* How Apps is the world to IT  */}
-                    <div className="first-one  relative lg:w-[30%] md:w-[100%]    mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                   
 
-                    <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
+                    <div className="firstone  relative lg:w-[30%] md:w-[100%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                  <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
-                            <div className="bg-[url('src/Images/img-4.jpg')]  bg-cover bg-center w-full lg:h-full relative  rounded-tr-lg rounded-tl-lg">
+                            <div className="bg-[url('src/Images/img-4.jpg')] relative bg-cover bg-center w-full h-full   rounded-tr-lg rounded-tl-lg">
 
                             <div className=' bg-[#282c32b3] w-full h-full flex flex-col justify-between text-white  absolute  group-hover:bottom-0 opacity-0 group-hover:opacity-80'>
                                 <div className='flex justify-between items-center '>
@@ -50,7 +51,7 @@ function  CareerAdvice() {
 
                                 </div>
                                 {/* heart and messages */}
-                                <div className='flex items-end justify-end pr-12 mb-3
+                                <div className='flex items-end justify-end pr-3 mb-3
                                 gap-3'>
                                     <div className='flex  items-center gap-1'>
                                     <FontAwesomeIcon icon={faHeart}  style={{color: "#edf0fb", }} />
@@ -72,9 +73,9 @@ function  CareerAdvice() {
                             </div>
 
                             
-                      <div className='py-6 font-nunito flex items-start flex-col justify-start px-5'>       
+                      <div className='py-6 font-nunito flex items-start flex-col justify-center px-5'>       
                       <div>
-                        <h4 className='text-[20px] mb-2 font-semibold text-black'>How Apps is the IT World</h4>
+                        <h4 className='text-[20px] mb-2 font-semibold text-black'>Vestibulum ante ipsum Primis</h4>
                       </div>
 
 
@@ -96,7 +97,7 @@ function  CareerAdvice() {
                     </div>
                     
                   {/* Vestibulum Inte Ipsum */}
-                  <div className="firstone  relative lg:w-[30%] md:w-[100%]    mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                  <div className="firstone  relative lg:w-[30%] md:w-[100%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
                   <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
                             <div className="bg-[url('src/Images/img-5.jpg')] relative bg-cover bg-center w-full h-full   rounded-tr-lg rounded-tl-lg">
@@ -167,7 +168,7 @@ function  CareerAdvice() {
                     </div>
 
                       {/* Maecenus termeisufd dfjdk;lj*/}
-                      <div className="firstone  relative lg:w-[30%] md:w-full    mt-6   bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
+                      <div className="firstone  relative lg:w-[30%] md:w-full sm:w-full   mt-6   bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
                       <div className='flex flex-col items-center   rounded-lg   pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
                             <div className="bg-[url('src/Images/img-6.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">

@@ -10,9 +10,9 @@ function HItworks() {
         <div className='container'>
               <div className='heading flex flex-col items-center mb-2 relative'>
                   <div className='pb-[48px] '>
-                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Ho<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  underline-offset-[30px]   decoration-card-blue  decoration-blue-700'>w&nbsp;It&nbsp;W</h4>orks</h4>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Ho<h4 className='text-[30px] md:text-[30px] sm:text-[26px] underline  md:underline-offset-[30px] sm:underline-offset-[29px]   decoration-card-blue  decoration-blue-700'>w&nbsp;It&nbsp;W</h4>orks</h4>
                         <div className="logo flex   justify-center relative">
-                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'14px', marginRight: '12px'
+                                <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '12px'
                         }} />
                         </div>
                   </div>
@@ -125,8 +125,8 @@ function HItworks() {
         <div className='w-full justify-center right-0 left-0'>
                <div className="bg-[url('src/Images/bg-counters.jpg')] bg-cover bg-center w-[100%] h-[320px] md:w-full md:h-[320px] sm:w-full sm:h-[450px] right-0 left-0 ">
                 <div className='bg-[#5e77ccbf]  w-full h-[320px] md:w-full md:h-[320px] sm:w-full sm:h-[450px] z-0 flex items-center justify-center'>
-                  <div className="container flex md:flex-row flex-row sm:flex-row   lg:justify-evenly sm:justify-around items-center sm:text-[20px]  font-nunito">
-                    <div className='flex sm:flex-col md:flex-row flex-row '>
+                  <div className="container flex md:flex-row flex-row sm:flex-row   lg:justify-evenly  sm:justify-around items-center sm:text-[20px]  font-nunito">
+                    <div className='flex sm:flex-col md:flex-row lg:flex-none  sm:gap-0 xl:gap-40 lg:gap-10'>
                       {/* first */}
 
                       <div className="companies flex  md:flex-row sm:flex-col  items-center py-6  px-2 text-white">
@@ -155,7 +155,7 @@ function HItworks() {
                       
                     </div>
 
-                    <div className='flex sm:flex-col md:flex-row flex-row'>
+                    <div className='flex sm:flex-col md:flex-row xl:flex-none sm:gap-0 xl:gap-40'>
                     {/* third */}
                     <div className="companies flex  md:flex-row sm:flex-col  items-center py-6  px-2 text-white">
                           <div className="icon ">

@@ -42,7 +42,7 @@ function Navbar() {
                                 <NavLink
                                 to="/jobs"
                                 className={({isActive}) =>
-                                    ` py-2 pr-2 pl-2 duration-200   ${isActive ? "lg:text-[#FFFFFFCC]" : "lg:text-[#FFFFFFCC]"} border-b   lg:border-0 hover:text-[#FFFFFFCC] lg:p-0`
+                                    ` py-2 lg:pr-2 lg:pl-2 duration-200   ${isActive ? "lg:text-[#FFFFFFCC]" : "lg:text-[#FFFFFFCC]"} border-b   lg:border-0 hover:text-[#FFFFFFCC] lg:p-0`
                                 }
                                 >
                                     <div className='flex justify-between items-center '>

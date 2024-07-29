@@ -7,17 +7,18 @@ export default function Footer() {
     return (
         <footer className="bg-[#202942]  w-full left-0 right-0  text-[#ADB5BD]   font-nunito">
             <div className="mx-auto w-full  p-4 py-6 lg:py-8">
-                <div className="lg:flex sm:flex-col lg:flex-row justify-around mt-5  md:justify-around">
-                    <div className=" flex basis-1/4 items-right   flex-col text-[16px] mb-6 px-3 pb-2 mx-0 mt-0   md:mb-0">
+                <div className="lg:flex sm:flex-col lg:flex-row justify-around mt-5  md:justify-around sm:justify-start">
+                    <div className=" flex md:basis-1/4 basis-1/4 sm:basis-[100%]    flex-col text-[16px] mb-6 px-3 pb-2 mx-0 mt-0   md:mb-0">
                         <Link to="/" className="flex ">
                             <img
                                 src="https://themesdesign.in/jobya/images/logo-light.png"
-                                className=" ml-[72px] h-[20px]"
+                                className=" ml-[72px] md:ml-[30px] sm:ml-[0px] h-[20px]"
                                 alt="Logo"
                             />
                         </Link>
-                        <p className='text-[16px]  mt-6 mb-4 ml-[72px] text-left text-wrap'>At vero eas et accusamus etiusto odio disnissim os ducimus qui blanditiis praesentium</p>
-                        <div className="flex mt-4 lg:ml-16 sm:ml-16  space-x-2   sm:mt-0">
+                        <p className='text-[16px]  mt-6  mb-4 sm:ml-[0px] ml-[72px] md:ml-[30px] text-left text-wrap'>At vero eas et accusamus etiusto odio disnissim os ducimus qui blanditiis praesentium</p>
+
+                        <div className="flex mt-4 ml-16 lg:ml-8 md:ml-8 sm:ml-[0px]  space-x-2   sm:mt-0">
                         <Link to="#" className=" mr-[5px] mb-[5px] border border-r-1 border-[#ADB5BD] rounded-full p-2 hover:bg-blue-500 hover:text-white  ">
                             <svg
                                 className="w-4 h-4"
@@ -85,7 +86,9 @@ export default function Footer() {
                         </Link>
                     </div>
                     </div>
-                    <div className="md:flex md:justify-around md:gap-0   basis-[75%] sm:gap-0 sm:flex">
+
+
+                    <div className="flex md:flex-row flex-row sm:flex-col md:justify-around md:gap-0   basis-[75%] sm:gap-0 sm:flex">
                         <div>
                             <h2 className="mb-6  font-semibold text-[18px] text-white ">Company</h2>
                             <ul className="text-[#adb5bd] flex flex-col items-start text-[16px]  ml-0 mb-3">
@@ -283,9 +286,10 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
+
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-                <div className="flex justify-center">
-                    <p className="text-sm text-[#adb5bd] content-center text-[16px] ">
+                <div className="flex   justify-center">
+                    <p className=" text-[#adb5bd] text-center sm:text-[16px] ">
                         © 2019-2020 
                        
                         Jobya.Design with&nbsp;&nbsp;

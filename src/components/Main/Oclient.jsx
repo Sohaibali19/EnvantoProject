@@ -6,22 +6,22 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 
 function Oclient() {
   return (
-    <section className='popular-cat flex flex-col items-center   w-screen right-0 left-0 py-[100px] '>
+    <section className='popular-cat flex flex-col items-center   w-screen right-0 left-0 py-[100px] md:py-[100px] sm:py-[50px] '>
         <div className='container'>
             <div className='heading flex flex-col items-center mb-2 relative'>
             <div className='pb-[48px] '>
-                        <h4 className='text-[30px] flex   relative '>Ou<h4 className='text-[30px]  underline  underline-offset-[30px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>r&nbsp;Clien</h4>t's</h4>
+                        <h4 className='text-[30px] md:text-[30px] sm:text-[26px] flex   relative '>Ou<h4 className='text-[30px] md:text-[30px] sm:text-[26px]  underline  md:underline-offset-[30px] sm:underline-offset-[29px] underline-w-[5px]  decoration-card-blue  decoration-blue-700'>r&nbsp;Clien</h4>t's</h4>
                         <div className="logo flex   justify-center relative">
                                 <FontAwesomeIcon icon={faDiamond} style={{color: "#064ecb",position:"absolute", marginTop:'13px', marginRight: '0px'
                         }} />
                         </div>
                     </div>
-                <p className='text-[#8492A6] text-[16px] relative mx-[100px] text-center'>
+                <p className='text-[#8492A6] text-[16px] relative mx-[100px] md:mx-[100px] sm:mx-[6px] text-center'>
                 Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                 </p>
             </div>
             
-            <div className="categories font-nunito  flex flex-wrap items-start justify-around my-7 text-[16px] mx-auto gap-5 p-20">
+            <div className="categories font-nunito  flex flex-wrap flex-row md:flex-row sm:flex-row md:items-start  items-start md:justify-around justify-around my-7 text-[16px] mx-auto gap-5 md:p-20 p-20 sm:p-0 ">
              
             <div className="chocolate">
                 <img  className="mt-6 pt-2 px-3 w-[142px]" src='src/Images/coffee.png' alt='coffee' />
