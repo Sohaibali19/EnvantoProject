@@ -27,7 +27,7 @@ function Pcat() {
             <div className="categories font-nunito  flex flex-wrap  items-center justify-center md:items-center md:justify-center my-6 sm:my-0 md:my-6    lg:gap-5 md:gap-3 p-20 md:p-20 sm:px-4 sm:py-20 sm:gap-5 ">
 
                {/* Developer */}
-              <div className="developer    lg:w-[22%] md:w-[47%] sm:w-full  transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300">
+              <div className="developer    lg:w-[22%] md:w-[47%] sm:w-full tm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300  duration-300">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 m-4 rounded-full bg-[#edf0fb]">
                     
@@ -42,7 +42,7 @@ function Pcat() {
                 </div>
               </div>
               {/* technology */}
-              <div className="developer lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300 duration-300  ">
+              <div className="Technology lg:w-[22%] md:w-[47%] sm:w-full transition ease-in-out hover:-translate-y-2 hover:delay-300 duration-300  ">
                 <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  py-6 px-5'>
                   <div className="logo  flex justify-center items-center w-14 h-14 rounded-full m-4 bg-[#edf0fb]">
                   <FontAwesomeIcon icon={faComputer}  style={{color: "#064ecb", }} />
