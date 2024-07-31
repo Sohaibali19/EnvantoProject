@@ -20,9 +20,9 @@ function HItworks() {
                   Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                   </p>
               </div>
-              <div className="categories font-nunito  flex flex-row md:flex-row md:flex-wrap sm:flex-col items-start justify-center my-4  mx-auto lg:gap-3 md:gap-1 py-[100px]">
+              <div className="categories font-nunito  flex flex-row md:flex-row md:flex-wrap  sm:flex-col items-start justify-center my-4  mx-auto lg:gap-1 xl:gap-3 md:gap-1 py-[100px]">
                   {/* register an account  */}
-                    <div className="RegisterAccount    w-[30%] md:w-[30%] sm:w-full     mt-6 pt-2 px-3 ">
+                    <div className="RegisterAccount xl:w-[30%]    lg:w-[30%] md:w-[40%] sm:w-full     mt-6 pt-2 px-3 ">
                     <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
 
                       <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
@@ -55,7 +55,7 @@ function HItworks() {
                     </div>
                     
                   {/* search your job */}
-                  <div className="searchJob    w-[30%] md:w-[30%] sm:w-full     mt-6 pt-2 px-3 ">
+                  <div className="searchJob xl:w-[30%]     lg:w-[30%] md:w-[40%] sm:w-full     mt-6 pt-2 px-3 ">
                     <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
                       <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
                       <div className='w-[90px] h-[90px] flex justify-center items-center '>
@@ -86,7 +86,7 @@ function HItworks() {
                     </div>
 
                       {/* Apply for Job */}
-                      <div className="applyjob    w-[30%] md:w-[30%] sm:w-full   mt-6 pt-2 px-3 ">
+                      <div className="applyjob xl:w-[30%]   lg:w-[30%] md:w-[40%] sm:w-full   mt-6 pt-2 px-3 ">
                         <div className='flex flex-col items-center   bg-[#fbf9fc]  rounded-lg  p-6 '>
                         <div className="logo flex justify-center items-center relative  w-[90px] h-[90px] rounded-full px-[39px] pb-[16px] my-3 mx-2 bg-[#edf0fb]">
                         <div className='w-[90px] h-[90px] flex justify-center items-center '>

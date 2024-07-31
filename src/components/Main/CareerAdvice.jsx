@@ -22,11 +22,12 @@ function  CareerAdvice() {
                 </div>
 
 
-              <div className="categories font-nunito w-[100%] px-3 flex md:flex-nowrap sm:flex-wrap items-center justify-center my-4 relative  mx-auto gap-3 py-[100px] md:py-[100px]  sm:py-[10px]">
+              <div className="categories font-nunito w-[100%] px-3 flex md:flex-wrap lg:flex-nowrap  sm:flex-wrap items-center justify-center my-4 relative  mx-auto gap-3 py-[100px] md:py-[100px]  sm:py-[10px]">
+                 
+                 
+                 
                   {/* How Apps is the world to IT  */}
-                   
-
-                    <div className="firstone  relative lg:w-[30%] md:w-[100%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                    <div className="firstone  relative lg:w-[30%] md:w-[40%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
                   <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
                             <div className="bg-[url('src/Images/img-4.jpg')] relative bg-cover bg-center w-full h-full   rounded-tr-lg rounded-tl-lg">
@@ -94,10 +95,9 @@ function  CareerAdvice() {
 
                         
                     </div>
-                    </div>
-                    
+                    </div> 
                   {/* Vestibulum Inte Ipsum */}
-                  <div className="firstone  relative lg:w-[30%] md:w-[100%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
+                  <div className="firstone  relative lg:w-[30%] md:w-[40%]  sm:w-full  mt-6    bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 duration-300">
                   <div className='flex flex-col items-center   rounded-lg    pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
                             <div className="bg-[url('src/Images/img-5.jpg')] relative bg-cover bg-center w-full h-full   rounded-tr-lg rounded-tl-lg">
@@ -166,9 +166,8 @@ function  CareerAdvice() {
                         
                     </div>
                     </div>
-
-                      {/* Maecenus termeisufd dfjdk;lj*/}
-                      <div className="firstone  relative lg:w-[30%] md:w-full sm:w-full   mt-6   bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
+                  {/* Maecenus termeisufd dfjdk;lj*/}
+                      <div className="firstone  relative lg:w-[30%] md:w-[40%] sm:w-full   mt-6   bg-white border-2 border-gray-200 rounded-lg transition ease-in-out hover:-translate-y-2 delay-300 ">
                       <div className='flex flex-col items-center   rounded-lg   pb-0 group'>
                             <div className=' relative flex justify-center items-center w-full h-[300px]  rounded-tr-lg rounded-tl-lg mb-4  overflow-hidden'>
                             <div className="bg-[url('src/Images/img-6.jpg')]  bg-cover bg-center w-full h-[300px]   rounded-tr-lg rounded-tl-lg">
