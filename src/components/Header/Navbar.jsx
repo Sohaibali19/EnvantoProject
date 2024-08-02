@@ -10,7 +10,7 @@ function Navbar() {
     <div className='  '>
                     <div
                         className="items-center lg:justify-around lg:relative sm:absolute lg:bg-transparent  lg:bg-none lg:w-full  sm:justify-between lg:mt-4  md:mt-[-70px] sm:mt-[-128px]    sm:bg-white sm:flex sm:w-full  sm:overflow-y-visible "
-                        id="mobile-menu-2"
+                        id="mobile-menu-2" 
                     >
                         <div className="logo">
                             <img src='src/Images/logo-dark.png' alt="logo-dark" className='lg:w-full md:w-[10%] lg:h-[18px] sm:h-[18px] lg:relative sm:absolute   lg:ml-0 md:ml-10 sm:ml-2 lg:mt-0 sm:-mt-2' />

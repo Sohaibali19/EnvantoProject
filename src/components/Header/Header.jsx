@@ -12,6 +12,7 @@ import Oclient from '../Main/Oclient'
 import CareerAdvice from '../Main/CareerAdvice'
 import Subscribe from '../Main/Subscribe'
 import Nav from './Nav'
+import BackToTopButton from '../BackToTopButton'
 
 
 function Header() {
@@ -35,6 +36,7 @@ function Header() {
       <Oclient />
       <CareerAdvice />
       <Subscribe />
+      <BackToTopButton />
     </div> 
 )
 }

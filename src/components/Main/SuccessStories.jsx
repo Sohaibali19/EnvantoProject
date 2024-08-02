@@ -6,7 +6,7 @@ import {  faUser, faEnvelope, faPhone,faDiamond, faComputer, faLandmark, faWandM
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { useRef } from 'react'
+
 
 
 
@@ -15,7 +15,7 @@ import { useRef } from 'react'
 function SuccessStories() {
 
 
-    const settings = {
+    var settings = {
         dots: true,
         infinite: true,
         autoplaySpeed: 2000,
@@ -26,29 +26,45 @@ function SuccessStories() {
 
       responsive: [
         {
-        breakpoint: 768,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
-          
-          
-          
+          dots: false  
         }
       },
-     
 
       {
-        breakpoint: 350,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,  
+          dots: false  
         }
       },
 
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false  
+        }
+      },
+
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false  
+        }
+      },
+     
       
     ]
     };
@@ -76,12 +92,14 @@ function SuccessStories() {
               {/* <div className="categories font-nunito  flex flex-wrap items-center justify-center my-7 px-[100px]  py-[100px]"> */}
              
                 
-                    <div className="main md:mx-auto sm:m-0  lg:w-[80%] md:w-full sm:w-[100vh] sm:px-0 md:px-10 tm:w-[70vh] ">
-                        <div className='mt-20'>
+                    
+                        <div className='mt-20 '>
                         <Slider  {...settings}>
+                          
                             {data.map((d) =>(
+                              <div className='main md:mx-auto  lg:w-full md:w-full sm:w-[110vh]   md:px-0 lg:px-0   relative '>
                                 <div className="div bg-[#f8f9fc] p-6 rounded-lg text-[#8492a6]  font-nunito ">
-                                    <p className='description mb-12 text-left'> {d.review}</p>
+                                    <p className='description mb-12 text-left '> {d.review}</p>
                                     <div className='w-full h-full'>
                         <div className="bottom flex  justify-between  items-center ">
                             <div className="div flex justify-around items-center gap-3 ">
@@ -100,13 +118,13 @@ function SuccessStories() {
                         </div>
                         </div>  
                                 </div>
-                            ))}
+                          </div>  ))}
                     
                         
                     
                     
                     </Slider>
-                    </div>
+                    
                     
                 
                     </div> 
